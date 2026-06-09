@@ -918,6 +918,41 @@
     }
     .float-cta .btn-cta { width:100%; padding:17px 20px; font-size:15px; }
 
+    /* ── ANVISA ── */
+    .anvisa-banner {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: linear-gradient(135deg, rgba(31,173,62,0.07), rgba(20,85,164,0.07));
+      border: 1px solid rgba(31,173,62,0.28);
+      border-radius: 14px;
+      padding: 18px 26px;
+      margin-bottom: 44px;
+      font-size: 14px;
+      color: #C0C8D8;
+      line-height: 1.55;
+    }
+    .anvisa-banner-icon { font-size: 32px; flex-shrink: 0; }
+    .anvisa-banner strong { color: #4DD870; font-family: 'Montserrat', sans-serif; }
+    .anvisa-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(31,173,62,0.1);
+      border: 1px solid rgba(31,173,62,0.22);
+      color: #4DD870;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 3px 11px;
+      border-radius: 50px;
+      margin-bottom: 18px;
+    }
+    .trust-badge.anvisa-badge { border-color: rgba(31,173,62,0.25); }
+    .trust-badge.anvisa-badge:hover { background: rgba(31,173,62,0.07); border-color: rgba(31,173,62,0.4); }
+    .trust-badge.anvisa-badge .trust-title { color: #4DD870; }
+
     /* ── DIVIDER ── */
     .gold-divider {
       height: 1px;
@@ -991,7 +1026,7 @@
         <li>Performance na cama e na academia restaurada</li>
         <li>Fim do cansaço crônico, sono ruim e humor no chão</li>
         <li>Força muscular e recuperação acelerada</li>
-        <li>Fórmula 100% natural — sem hormônios sintéticos</li>
+        <li>Fórmula 100% natural — Ativos aprovados pela ANVISA</li>
       </ul>
       <a href="#pricing" class="btn-cta">
         QUERO RECUPERAR MINHA VIRILIDADE AGORA
@@ -1033,6 +1068,11 @@
       <span class="trust-icon">📦</span>
       <span class="trust-title">Embalagem<br>Discreta</span>
       <span class="trust-sub">Privacidade total</span>
+    </div>
+    <div class="trust-badge anvisa-badge reveal delay-5">
+      <span class="trust-icon">🏛️</span>
+      <span class="trust-title">Ativos<br>Aprovados</span>
+      <span class="trust-sub">Reg. ANVISA</span>
     </div>
   </div>
 </div>
@@ -1180,28 +1220,36 @@
     <span class="section-tag reveal">Ingredientes</span>
     <h2 class="reveal">Por Que Essa Fórmula Funciona <em>Quando Tudo Que Você Tentou Antes Falhou</em></h2>
     <p class="section-sub reveal">Sem ingrediente de enfeite. Cada componente tem função específica, dose eficaz e evidência científica. É isso que separa Titan Men+ de qualquer outra coisa no mercado.</p>
+    <div class="anvisa-banner reveal">
+      <span class="anvisa-banner-icon">🏛️</span>
+      <span><strong>Todos os ativos aprovados pela ANVISA</strong> — Feno Grego, Zinco, Magnésio e Vitamina B6 são ingredientes regulamentados e permitidos para uso em suplementos alimentares conforme a legislação brasileira vigente (IN ANVISA nº 76/2020).</span>
+    </div>
     <div class="ingr-grid">
       <div class="ingr-card reveal delay-1">
         <h3>Feno Grego</h3>
         <div class="ingr-sub">Trigonella Foenum-Graecum</div>
+        <div class="anvisa-tag">✓ Aprovado ANVISA</div>
         <div class="ingr-bar"><div class="ingr-bar-fill" style="--fill:92%"></div></div>
         <p>Usado há milênios, validado pela ciência moderna. Aumenta testosterona livre, melhora libido e energia. É o ingrediente que faz homens de 50 anos se sentirem como de 30.</p>
       </div>
       <div class="ingr-card reveal delay-2">
         <h3>Zinco (ZMA)</h3>
         <div class="ingr-sub">O Mineral da Masculinidade</div>
+        <div class="anvisa-tag">✓ Aprovado ANVISA</div>
         <div class="ingr-bar"><div class="ingr-bar-fill" style="--fill:88%"></div></div>
         <p>Regula mais de 300 enzimas. Indispensável para testosterona, fertilidade e saúde sexual. A maioria dos homens brasileiros tem deficiência — e não sabe. Você provavelmente é um deles.</p>
       </div>
       <div class="ingr-card reveal delay-3">
         <h3>Magnésio (ZMA)</h3>
         <div class="ingr-sub">Recuperação Total</div>
+        <div class="anvisa-tag">✓ Aprovado ANVISA</div>
         <div class="ingr-bar"><div class="ingr-bar-fill" style="--fill:85%"></div></div>
         <p>Mais de 60% dos homens são deficientes em magnésio. Sem ele: câimbras, sono ruim, ansiedade, pressão alta e performance horrível — na academia e na cama.</p>
       </div>
       <div class="ingr-card reveal delay-4">
         <h3>Vitamina B6 (ZMA)</h3>
         <div class="ingr-sub">O Amplificador</div>
+        <div class="anvisa-tag">✓ Aprovado ANVISA</div>
         <div class="ingr-bar"><div class="ingr-bar-fill" style="--fill:80%"></div></div>
         <p>Potencializa a absorção do zinco e magnésio. Age nos neurotransmissores do humor e energia. Sem ela, os outros ingredientes perdem metade do efeito.</p>
       </div>
@@ -1522,6 +1570,7 @@
 <!-- FOOTER -->
 <footer>
   <p>© 2026 Titan Men+ — Produto Igéia. Suplemento alimentar. Não substitui alimentação equilibrada e estilo de vida saudável. Consulte um nutricionista.</p>
+  <p style="margin-top:6px; font-size:11px; color:#555;">Ativos aprovados pela ANVISA conforme IN nº 76/2020. Titan Men+ é um suplemento alimentar registrado.</p>
   <p><a href="https://www.igeia.com.br" target="_blank">www.igeia.com.br</a> &nbsp;|&nbsp; Todos os direitos reservados.</p>
 </footer>
 

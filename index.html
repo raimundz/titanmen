@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Titan Men+ | Sua Virilidade de Volta em 30 Dias</title>
+  <title>Titan Men+ | Feno Grego + ZMA — Liberte Seu Potencial</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="icon" type="image/x-icon" href="/igeiaIcon.png">
       <script>
@@ -18,13 +18,6 @@
     fbq('init', '891649753921417');
     fbq('track', 'PageView');
     </script>
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "wq2qktqgju");
-</script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=891649753921417&ev=PageView&noscript=1"
     /></noscript>
@@ -115,11 +108,12 @@
     header {
       background: var(--dark2);
       border-bottom: 1px solid rgba(212,160,23,0.12);
-      padding: 20px 20px;
+      padding: 18px 20px;
       text-align: center;
     }
     .logo { font-family:'Montserrat',sans-serif; font-size:26px; font-weight:900; letter-spacing:3px; color:var(--gold); }
     .logo span { color:#fff; }
+    .logo-anvisa { font-size: 10px; color: var(--text-muted); letter-spacing: 0.4px; margin-top: 5px; }
 
     /* ── HERO ── */
     .hero {
@@ -128,167 +122,95 @@
       padding: 80px 20px 90px;
       min-height: 600px;
     }
-    /* Photo bg */
     .hero-photo-bg {
-      position: absolute;
-      inset: 0;
+      position: absolute; inset: 0;
       background: url('tm-02.png') center center / cover no-repeat;
       filter: brightness(0.45) saturate(0.7);
     }
-    /* Blue overlay gradient */
     .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        105deg,
-        rgba(4,8,16,0.88) 0%,
-        rgba(10,22,55,0.75) 50%,
-        rgba(13,27,75,0.5) 100%
-      );
+      position: absolute; inset: 0;
+      background: linear-gradient(105deg, rgba(4,8,16,0.88) 0%, rgba(10,22,55,0.75) 50%, rgba(13,27,75,0.5) 100%);
     }
-    /* Grid texture on top */
     .hero-grid {
-      position: absolute;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(20,85,164,0.09) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(20,85,164,0.09) 1px, transparent 1px);
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(20,85,164,0.09) 1px, transparent 1px), linear-gradient(90deg, rgba(20,85,164,0.09) 1px, transparent 1px);
       background-size: 60px 60px;
       pointer-events: none;
     }
-    /* Glow orbs */
     .hero-glow-gold {
-      position: absolute;
-      bottom: -80px; right: 20%;
+      position: absolute; bottom: -80px; right: 20%;
       width: 500px; height: 500px;
       background: radial-gradient(circle, rgba(212,160,23,0.18) 0%, transparent 65%);
       pointer-events: none;
       animation: floatGlow 9s ease-in-out infinite reverse;
     }
-
     .hero-inner {
-      max-width: 1140px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      gap: 70px;
-      position: relative;
-      z-index: 2;
+      max-width: 1140px; margin: 0 auto;
+      display: flex; align-items: center; gap: 70px;
+      position: relative; z-index: 2;
     }
     .hero-text { flex: 1; }
-
     .badge-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
+      display: inline-flex; align-items: center; gap: 8px;
       background: linear-gradient(90deg, rgba(20,85,164,0.45), rgba(212,160,23,0.25));
       border: 1px solid rgba(212,160,23,0.4);
-      padding: 7px 20px;
-      border-radius: 50px;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-      color: var(--gold-light);
-      backdrop-filter: blur(8px);
+      padding: 7px 20px; border-radius: 50px;
+      font-size: 11px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; margin-bottom: 24px;
+      color: var(--gold-light); backdrop-filter: blur(8px);
     }
-
     .hero-title {
       font-family: 'Montserrat', sans-serif;
-      font-size: clamp(34px, 5vw, 58px);
-      font-weight: 900;
-      line-height: 1.07;
-      margin-bottom: 22px;
-      color: #fff;
-      letter-spacing: -0.5px;
-      text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+      font-size: clamp(34px, 5vw, 58px); font-weight: 900;
+      line-height: 1.07; margin-bottom: 22px; color: #fff;
+      letter-spacing: -0.5px; text-shadow: 0 2px 20px rgba(0,0,0,0.5);
     }
     .hero-title .highlight {
       background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
       background-size: 200%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      animation: shimmerText 3s linear infinite;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; animation: shimmerText 3s linear infinite;
     }
     @keyframes shimmerText { 0%{background-position:0%} 100%{background-position:200%} }
-
     .hero-subtitle {
-      font-size: 17px;
-      color: #C8D0E0;
-      margin-bottom: 32px;
-      max-width: 530px;
-      line-height: 1.75;
-      text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+      font-size: 17px; color: #C8D0E0; margin-bottom: 32px;
+      max-width: 530px; line-height: 1.75; text-shadow: 0 1px 8px rgba(0,0,0,0.4);
     }
-
-    .hero-bullets {
-      list-style: none;
-      margin-bottom: 40px;
-    }
+    .hero-bullets { list-style: none; margin-bottom: 40px; }
     .hero-bullets li {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-size: 15.5px;
-      color: #DDE3EE;
-      margin-bottom: 12px;
+      display: flex; align-items: center; gap: 12px;
+      font-size: 15.5px; color: #DDE3EE; margin-bottom: 12px;
       text-shadow: 0 1px 6px rgba(0,0,0,0.4);
     }
     .hero-bullets li::before {
-      content: '✓';
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
+      content: '&#10003;'; display: inline-flex; align-items: center; justify-content: center;
       width: 26px; height: 26px;
       background: linear-gradient(135deg, var(--gold), var(--gold-dark));
-      border-radius: 50%;
-      font-size: 13px;
-      font-weight: 800;
-      color: #000;
-      flex-shrink: 0;
-      box-shadow: 0 3px 12px rgba(212,160,23,0.4);
+      border-radius: 50%; font-size: 13px; font-weight: 800; color: #000;
+      flex-shrink: 0; box-shadow: 0 3px 12px rgba(212,160,23,0.4);
     }
-
-    /* Hero product image */
     .hero-image-wrap {
-      flex-shrink: 0;
-      width: 370px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-shrink: 0; width: 370px; position: relative;
+      display: flex; align-items: center; justify-content: center;
     }
     .hero-image-glow {
-      position: absolute;
-      inset: -50px;
+      position: absolute; inset: -50px;
       background: radial-gradient(circle, rgba(20,85,164,0.6) 0%, transparent 70%);
-      filter: blur(40px);
-      z-index: 0;
-      animation: floatGlow 6s ease-in-out infinite;
+      filter: blur(40px); z-index: 0; animation: floatGlow 6s ease-in-out infinite;
     }
     .hero-image-ring {
-      position: absolute;
-      width: 340px; height: 340px;
-      border-radius: 50%;
-      border: 1px solid rgba(212,160,23,0.2);
+      position: absolute; width: 340px; height: 340px;
+      border-radius: 50%; border: 1px solid rgba(212,160,23,0.2);
       animation: spinRing 20s linear infinite;
     }
     .hero-image-ring::before {
-      content: '';
-      position: absolute;
-      top: -3px; left: 50%;
-      width: 6px; height: 6px;
-      background: var(--gold);
-      border-radius: 50%;
-      transform: translateX(-50%);
+      content: ''; position: absolute; top: -3px; left: 50%;
+      width: 6px; height: 6px; background: var(--gold);
+      border-radius: 50%; transform: translateX(-50%);
     }
     @keyframes spinRing { to { transform: rotate(360deg); } }
     .hero-image-wrap img {
-      width: 100%;
-      position: relative;
-      z-index: 1;
+      width: 100%; position: relative; z-index: 1;
       filter: drop-shadow(0 30px 60px rgba(0,0,0,0.8)) drop-shadow(0 0 30px rgba(20,85,164,0.4));
       animation: floatImg 5s ease-in-out infinite;
     }
@@ -299,30 +221,17 @@
     .btn-cta {
       display: inline-block;
       background: linear-gradient(135deg,#1FAD3E,#15831E);
-      color: #fff;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 17px;
-      font-weight: 800;
-      text-decoration: none;
-      padding: 20px 46px;
-      border-radius: 10px;
-      border: none;
-      cursor: pointer;
-      letter-spacing: 0.5px;
-      box-shadow: 0 6px 32px rgba(31,173,62,0.45);
-      transition: all 0.25s ease;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
+      color: #fff; font-family: 'Montserrat', sans-serif;
+      font-size: 17px; font-weight: 800; text-decoration: none;
+      padding: 20px 46px; border-radius: 10px; border: none; cursor: pointer;
+      letter-spacing: 0.5px; box-shadow: 0 6px 32px rgba(31,173,62,0.45);
+      transition: all 0.25s ease; text-align: center;
+      position: relative; overflow: hidden;
     }
     .btn-cta::after {
-      content: '';
-      position: absolute;
-      top: -50%; left: -60%;
-      width: 40%; height: 200%;
-      background: rgba(255,255,255,0.15);
-      transform: skewX(-20deg);
-      transition: left 0.5s ease;
+      content: ''; position: absolute; top: -50%; left: -60%;
+      width: 40%; height: 200%; background: rgba(255,255,255,0.15);
+      transform: skewX(-20deg); transition: left 0.5s ease;
     }
     .btn-cta:hover::after { left: 130%; }
     .btn-cta:hover { transform:translateY(-3px); box-shadow:0 14px 40px rgba(31,173,62,0.6); }
@@ -338,187 +247,84 @@
       position: relative;
     }
     .trust-strip::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 2px;
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
       background: linear-gradient(90deg, transparent, var(--gold), var(--gold-light), var(--gold), transparent);
     }
     .trust-strip-inner {
-      max-width: 1060px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
+      max-width: 1060px; margin: 0 auto;
+      display: flex; justify-content: space-around; align-items: center;
+      gap: 16px; flex-wrap: wrap;
     }
     .trust-badge {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-      padding: 20px 24px;
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(212,160,23,0.1);
-      border-radius: 16px;
-      min-width: 130px;
-      transition: all 0.25s;
-      cursor: default;
+      display: flex; flex-direction: column; align-items: center; gap: 10px;
+      padding: 20px 24px; background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(212,160,23,0.1); border-radius: 16px;
+      min-width: 130px; transition: all 0.25s; cursor: default;
     }
-    .trust-badge:hover {
-      background: rgba(212,160,23,0.07);
-      border-color: rgba(212,160,23,0.3);
-      transform: translateY(-3px);
-    }
-    .trust-badge .trust-icon {
-      font-size: 40px;
-      line-height: 1;
-      display: block;
-      filter: drop-shadow(0 2px 8px rgba(212,160,23,0.3));
-    }
-    .trust-badge .trust-title {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 13px;
-      font-weight: 800;
-      color: #E8EAF0;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      text-align: center;
-      line-height: 1.3;
-    }
-    .trust-badge .trust-sub {
-      font-size: 11px;
-      color: var(--text-muted);
-      text-align: center;
-      letter-spacing: 0.3px;
-    }
+    .trust-badge:hover { background: rgba(212,160,23,0.07); border-color: rgba(212,160,23,0.3); transform: translateY(-3px); }
+    .trust-badge .trust-icon { font-size: 40px; line-height: 1; display: block; filter: drop-shadow(0 2px 8px rgba(212,160,23,0.3)); }
+    .trust-badge .trust-title { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 800; color: #E8EAF0; text-transform: uppercase; letter-spacing: 0.8px; text-align: center; line-height: 1.3; }
+    .trust-badge .trust-sub { font-size: 11px; color: var(--text-muted); text-align: center; letter-spacing: 0.3px; }
 
     /* ── PROOF BAR ── */
     .proof-bar {
       background: linear-gradient(90deg, var(--blue-dark), #1A62C4, var(--blue-dark));
-      background-size: 200%;
-      animation: shimmerBg 6s ease infinite;
-      padding: 36px 20px;
-      position: relative;
-      overflow: hidden;
+      background-size: 200%; animation: shimmerBg 6s ease infinite;
+      padding: 36px 20px; position: relative; overflow: hidden;
     }
     .proof-bar::after {
-      content: '';
-      position: absolute;
-      inset: 0;
+      content: ''; position: absolute; inset: 0;
       background: linear-gradient(90deg, transparent, rgba(255,255,255,0.04), transparent);
       pointer-events: none;
     }
     .proof-bar-inner {
-      max-width: 920px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-around;
-      gap: 20px;
-      flex-wrap: wrap;
-      position: relative;
-      z-index: 1;
+      max-width: 920px; margin: 0 auto;
+      display: flex; justify-content: space-around; gap: 20px;
+      flex-wrap: wrap; position: relative; z-index: 1;
     }
     .proof-item { text-align: center; }
     .proof-item strong {
-      display: block;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 40px;
-      font-weight: 900;
-      color: var(--gold-light);
-      line-height: 1;
-      margin-bottom: 5px;
+      display: block; font-family: 'Montserrat', sans-serif;
+      font-size: 40px; font-weight: 900; color: var(--gold-light);
+      line-height: 1; margin-bottom: 5px;
     }
-    .proof-item span {
-      font-size: 11px;
-      color: rgba(255,255,255,0.72);
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-    }
+    .proof-item span { font-size: 11px; color: rgba(255,255,255,0.72); text-transform: uppercase; letter-spacing: 1.5px; }
 
     /* ── SECTION BASE ── */
     section { padding: 90px 20px; }
     .section-inner { max-width: 1060px; margin: 0 auto; }
     .section-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--gold);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 3.5px;
-      text-transform: uppercase;
-      margin-bottom: 14px;
+      display: inline-flex; align-items: center; gap: 10px;
+      color: var(--gold); font-size: 11px; font-weight: 700;
+      letter-spacing: 3.5px; text-transform: uppercase; margin-bottom: 14px;
     }
-    .section-tag::before {
-      content: '';
-      display: inline-block;
-      width: 16px; height: 2px;
-      background: var(--gold);
-    }
+    .section-tag::before { content: ''; display: inline-block; width: 16px; height: 2px; background: var(--gold); }
     h2 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: clamp(28px, 4vw, 46px);
-      font-weight: 900;
-      line-height: 1.1;
-      color: #fff;
-      margin-bottom: 18px;
-      letter-spacing: -0.5px;
+      font-family: 'Montserrat', sans-serif; font-size: clamp(28px, 4vw, 46px);
+      font-weight: 900; line-height: 1.1; color: #fff; margin-bottom: 18px; letter-spacing: -0.5px;
     }
     h2 em { font-style: normal; color: var(--gold); }
-    .section-sub {
-      font-size: 16px;
-      color: var(--text-muted);
-      max-width: 620px;
-      margin-bottom: 52px;
-      line-height: 1.75;
-    }
+    .section-sub { font-size: 16px; color: var(--text-muted); max-width: 620px; margin-bottom: 52px; line-height: 1.75; }
 
-    /* ── PROBLEM (photo bg) ── */
-    .problem {
-      position: relative;
-      overflow: hidden;
-    }
+    /* ── PROBLEM ── */
+    .problem { position: relative; overflow: hidden; }
     .problem-photo-bg {
-      position: absolute;
-      inset: 0;
+      position: absolute; inset: 0;
       background: url('tm-04.png') center 20% / cover no-repeat;
       filter: brightness(0.3) saturate(0.5);
     }
     .problem-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        135deg,
-        rgba(8,12,20,0.92) 0%,
-        rgba(13,27,54,0.85) 50%,
-        rgba(8,12,20,0.9) 100%
-      );
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(8,12,20,0.92) 0%, rgba(13,27,54,0.85) 50%, rgba(8,12,20,0.9) 100%);
     }
     .problem .section-inner { position: relative; z-index: 2; }
-    .problem-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 20px;
-    }
+    .problem-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; }
     .problem-card {
-      background: rgba(22,29,45,0.85);
-      backdrop-filter: blur(8px);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: 18px;
-      padding: 30px 26px;
+      background: rgba(22,29,45,0.85); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.07); border-radius: 18px; padding: 30px 26px;
       transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
     }
-    .problem-card::before {
-      content: '';
-      display: block;
-      height: 3px;
-      margin-bottom: 20px;
-      border-radius: 3px;
-      background: linear-gradient(90deg, var(--blue-dark), var(--gold-dark));
-      opacity: 0.6;
-    }
+    .problem-card::before { content: ''; display: block; height: 3px; margin-bottom: 20px; border-radius: 3px; background: linear-gradient(90deg, var(--blue-dark), var(--gold-dark)); opacity: 0.6; }
     .problem-card:hover { transform:translateY(-6px); border-color:rgba(212,160,23,0.25); box-shadow:0 14px 36px rgba(0,0,0,0.5); }
     .problem-card .icon { font-size: 36px; margin-bottom: 14px; display: block; }
     .problem-card h3 { font-family:'Montserrat',sans-serif; font-size:16px; font-weight:700; color:#E4E8F4; margin-bottom:8px; }
@@ -526,65 +332,41 @@
 
     /* ── BENEFITS ── */
     .benefits { background: var(--dark); }
-    .benefits-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 24px;
-    }
+    .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
     .benefit-card {
       background: linear-gradient(145deg, var(--dark3), #1B2238);
-      border: 1px solid rgba(212,160,23,0.1);
-      border-radius: 20px;
-      padding: 36px 30px;
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+      border: 1px solid rgba(212,160,23,0.1); border-radius: 20px; padding: 36px 30px;
+      position: relative; overflow: hidden; transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
     }
     .benefit-card::after {
-      content: '';
-      position: absolute;
-      bottom: 0; left: 0; right: 0; height: 2px;
+      content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
       background: linear-gradient(90deg, var(--blue-dark), var(--gold));
-      transform: scaleX(0); transform-origin: left;
-      transition: transform 0.35s ease;
+      transform: scaleX(0); transform-origin: left; transition: transform 0.35s ease;
     }
     .benefit-card:hover { transform:translateY(-5px); border-color:rgba(212,160,23,0.3); box-shadow:0 18px 44px rgba(0,0,0,0.4); }
     .benefit-card:hover::after { transform:scaleX(1); }
     .benefit-icon {
-      width: 62px; height: 62px;
-      background: linear-gradient(135deg,var(--blue-dark),var(--blue));
-      border-radius: 18px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 28px;
-      margin-bottom: 22px;
-      box-shadow: 0 6px 22px rgba(20,85,164,0.4);
+      width: 62px; height: 62px; background: linear-gradient(135deg,var(--blue-dark),var(--blue));
+      border-radius: 18px; display: flex; align-items: center; justify-content: center;
+      font-size: 28px; margin-bottom: 22px; box-shadow: 0 6px 22px rgba(20,85,164,0.4);
     }
     .benefit-card h3 { font-family:'Montserrat',sans-serif; font-size:19px; font-weight:700; color:#fff; margin-bottom:10px; }
     .benefit-card p { font-size:14px; color:var(--text-muted); line-height:1.7; }
 
     /* ── HOW IT WORKS ── */
     .how { background: var(--dark2); }
-    .steps {
-      display: flex; flex-direction: column;
-      position: relative; max-width: 720px;
-    }
+    .steps { display: flex; flex-direction: column; position: relative; max-width: 720px; }
     .steps::before {
-      content: '';
-      position: absolute;
-      left: 28px; top: 44px; bottom: 44px;
-      width: 2px;
-      background: linear-gradient(to bottom, var(--blue), var(--gold));
-      opacity: 0.5;
+      content: ''; position: absolute; left: 28px; top: 44px; bottom: 44px;
+      width: 2px; background: linear-gradient(to bottom, var(--blue), var(--gold)); opacity: 0.5;
     }
-    .step { display:flex; gap:32px; align-items:flex-start; padding:28px 0; position:relative; }
+    /* ACAO 11: padding reduzido para caber em menos de 2 telas */
+    .step { display:flex; gap:32px; align-items:flex-start; padding:16px 0; position:relative; }
     .step-num {
-      width: 58px; height: 58px;
-      background: linear-gradient(135deg,var(--blue-dark),var(--blue));
-      border-radius: 50%;
-      display: flex; align-items:center; justify-content:center;
+      width: 58px; height: 58px; background: linear-gradient(135deg,var(--blue-dark),var(--blue));
+      border-radius: 50%; display: flex; align-items:center; justify-content:center;
       font-family:'Montserrat',sans-serif; font-size:22px; font-weight:900; color:#fff;
-      flex-shrink: 0; position:relative; z-index:1;
-      border: 2px solid var(--gold);
+      flex-shrink: 0; position:relative; z-index:1; border: 2px solid var(--gold);
       box-shadow: 0 0 0 5px rgba(212,160,23,0.1), 0 8px 24px rgba(20,85,164,0.4);
     }
     .step-content { padding-top:9px; }
@@ -593,29 +375,28 @@
 
     /* ── INGREDIENTS ── */
     .ingredients { background: var(--dark); }
-    .ingr-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-      gap: 22px;
-    }
+    .ingr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 22px; }
     .ingr-card {
-      background: var(--dark3);
-      border-radius: 18px;
-      padding: 32px 28px;
-      border-top: 3px solid var(--gold);
-      position: relative; overflow:hidden;
+      background: var(--dark3); border-radius: 18px; padding: 32px 28px;
+      border-top: 3px solid var(--gold); position: relative; overflow:hidden;
       transition: transform 0.25s, box-shadow 0.25s;
     }
     .ingr-card::before {
-      content:'';
-      position:absolute; top:-60px; right:-60px;
+      content:''; position:absolute; top:-60px; right:-60px;
       width:150px; height:150px;
       background: radial-gradient(circle, rgba(212,160,23,0.09) 0%, transparent 70%);
       pointer-events:none;
     }
     .ingr-card:hover { transform:translateY(-5px); box-shadow:0 16px 40px rgba(0,0,0,0.45); }
     .ingr-card h3 { font-family:'Montserrat',sans-serif; font-size:22px; font-weight:800; color:var(--gold-light); margin-bottom:4px; }
-    .ingr-card .ingr-sub { font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--text-muted); margin-bottom:18px; }
+    .ingr-card .ingr-sub { font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--text-muted); margin-bottom:10px; }
+    /* ACAO 10: dose badge */
+    .ingr-dose {
+      display: inline-block;
+      background: rgba(212,160,23,0.12); border: 1px solid rgba(212,160,23,0.3);
+      color: var(--gold-light); font-family: 'Montserrat', sans-serif;
+      font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 50px; margin-bottom: 14px;
+    }
     .ingr-bar { height:3px; background:rgba(255,255,255,0.06); border-radius:3px; margin-bottom:18px; overflow:hidden; }
     .ingr-bar-fill {
       height:100%; border-radius:3px;
@@ -624,66 +405,42 @@
     }
     .ingr-card.visible .ingr-bar-fill { width: var(--fill); }
     .ingr-card p { font-size:13.5px; color:#A8B0C0; line-height:1.7; }
-
-    /* ── PHOTO BREAK (mid-page) ── */
-    .photo-break {
-      position: relative;
-      min-height: 380px;
-      display: flex;
-      align-items: center;
-      overflow: hidden;
+    /* ACAO 7: ANVISA note */
+    .anvisa-note {
+      background: rgba(20,85,164,0.1); border: 1px solid rgba(20,85,164,0.28);
+      border-radius: 10px; padding: 12px 20px;
+      font-size: 12px; color: #7A8A9A; margin-bottom: 36px; line-height: 1.7;
     }
+    .anvisa-note strong { color: var(--gold-light); }
+
+    /* ── PHOTO BREAK ── */
+    .photo-break { position: relative; min-height: 380px; display: flex; align-items: center; overflow: hidden; }
     .photo-break-bg {
-      position: absolute;
-      inset: 0;
+      position: absolute; inset: 0;
       background: url('tm-03.png') center 25% / cover no-repeat;
       filter: brightness(0.35) saturate(0.6);
     }
     .photo-break-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        90deg,
-        rgba(8,12,20,0.15) 0%,
-        rgba(13,27,70,0.72) 100%
-      );
+      position: absolute; inset: 0;
+      background: linear-gradient(90deg, rgba(8,12,20,0.15) 0%, rgba(13,27,70,0.72) 100%);
     }
     .photo-break-content {
-      position: relative;
-      z-index: 2;
-      max-width: 1060px;
-      margin: 0 auto;
-      padding: 60px 20px;
-      text-align: center;
-      width: 100%;
+      position: relative; z-index: 2; max-width: 1060px;
+      margin: 0 auto; padding: 60px 20px; text-align: center; width: 100%;
     }
     .photo-break-content h2 { margin-bottom: 12px; }
-    .photo-break-content p {
-      font-size: 18px;
-      color: rgba(255,255,255,0.75);
-      margin-bottom: 36px;
-      max-width: 560px;
-      margin-left: auto; margin-right: auto;
-    }
+    .photo-break-content p { font-size: 18px; color: rgba(255,255,255,0.75); margin-bottom: 36px; max-width: 560px; margin-left: auto; margin-right: auto; }
 
     /* ── TESTIMONIALS ── */
     .testimonials { background: var(--dark2); }
-    .testi-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
-      gap: 22px;
-    }
+    .testi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(295px, 1fr)); gap: 22px; }
     .testi-card {
-      background: var(--dark3);
-      border-radius: 18px;
-      padding: 32px 28px;
-      border: 1px solid rgba(255,255,255,0.05);
-      position: relative; overflow:hidden;
+      background: var(--dark3); border-radius: 18px; padding: 32px 28px;
+      border: 1px solid rgba(255,255,255,0.05); position: relative; overflow:hidden;
       transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
     }
     .testi-card::before {
-      content:'"';
-      font-size:110px; line-height:1; color:var(--gold);
+      content:'"'; font-size:110px; line-height:1; color:var(--gold);
       opacity:0.09; position:absolute; top:-4px; left:12px;
       font-family:Georgia,serif; pointer-events:none;
     }
@@ -692,15 +449,13 @@
     .testi-card p { font-size:14.5px; color:#B8BEC8; margin-bottom:24px; font-style:italic; line-height:1.75; position:relative; z-index:1; }
     .testi-author { display:flex; align-items:center; gap:14px; }
     .testi-avatar {
-      width:50px; height:50px;
-      background: linear-gradient(135deg,var(--blue-dark),var(--blue));
-      border-radius:50%;
-      display:flex; align-items:center; justify-content:center;
+      width:50px; height:50px; background: linear-gradient(135deg,var(--blue-dark),var(--blue));
+      border-radius:50%; display:flex; align-items:center; justify-content:center;
       font-family:'Montserrat',sans-serif; font-weight:700; font-size:17px; color:#fff;
       border: 2px solid rgba(212,160,23,0.35); flex-shrink:0;
     }
     .testi-author-info strong { display:block; font-size:14px; color:#fff; }
-    .testi-author-info span { font-size:11.5px; color:var(--text-muted); }
+    .testi-author-info span { font-size:11px; color:var(--text-muted); }
     .verified-badge {
       display:inline-flex; align-items:center; gap:4px;
       background:rgba(31,173,62,0.12); border:1px solid rgba(31,173,62,0.25);
@@ -710,23 +465,15 @@
 
     /* ── PRICING ── */
     .pricing { background: linear-gradient(180deg,var(--dark2) 0%,var(--dark) 100%); }
-    .pricing-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(295px,1fr));
-      gap: 26px;
-      align-items: stretch;
-    }
+    .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(295px,1fr)); gap: 26px; align-items: stretch; }
     .price-card {
-      background: var(--dark3);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: 24px;
-      padding: 40px 30px;
-      text-align: center;
-      position: relative;
-      transition: transform 0.25s, box-shadow 0.25s;
+      background: var(--dark3); border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 24px; padding: 40px 30px; text-align: center;
+      position: relative; transition: transform 0.25s, box-shadow 0.25s;
       display: flex; flex-direction: column;
     }
     .price-card:hover { transform:translateY(-6px); box-shadow:0 22px 50px rgba(0,0,0,0.45); }
+    /* ACAO 5: 3-frascos agora e o featured */
     .price-card.featured {
       background: linear-gradient(160deg,#0D1B36,#152B52,#0D1B36);
       border: 2px solid var(--gold);
@@ -739,36 +486,29 @@
       background: linear-gradient(90deg,var(--gold-dark),var(--gold),var(--gold-light));
       color:#000; font-family:'Montserrat',sans-serif;
       font-size:11px; font-weight:800; letter-spacing:1.5px;
-      text-transform:uppercase; padding:6px 22px; border-radius:50px;
-      white-space:nowrap;
+      text-transform:uppercase; padding:6px 22px; border-radius:50px; white-space:nowrap;
+    }
+    /* ACAO 5: badge azul para 2 frascos */
+    .eco-badge {
+      position:absolute; top:-16px; left:50%; transform:translateX(-50%);
+      background: linear-gradient(90deg, #2A6BAA, #1A4F85);
+      color:#fff; font-family:'Montserrat',sans-serif;
+      font-size:11px; font-weight:800; letter-spacing:1.5px;
+      text-transform:uppercase; padding:6px 22px; border-radius:50px; white-space:nowrap;
     }
     .price-units-img { display:flex; justify-content:center; align-items:flex-end; margin-bottom:24px; min-height:140px; }
-    .price-units-img .bottle {
-      width: 105px;
-      filter: drop-shadow(0 8px 20px rgba(0,0,0,0.65));
-      transition: transform 0.3s;
-    }
+    .price-units-img .bottle { width: 105px; filter: drop-shadow(0 8px 20px rgba(0,0,0,0.65)); transition: transform 0.3s; }
     .price-units-img .bottle + .bottle { margin-left:-30px; }
     .price-card:hover .price-units-img .bottle { transform:translateY(-7px); }
 
     /* ── RATINGS OVERVIEW ── */
     .ratings-overview {
-      display: flex;
-      align-items: center;
-      gap: 40px;
-      background: var(--dark3);
-      border: 1px solid rgba(212,160,23,0.18);
-      border-radius: 20px;
-      padding: 32px 40px;
-      margin-bottom: 52px;
-      flex-wrap: wrap;
+      display: flex; align-items: center; gap: 40px;
+      background: var(--dark3); border: 1px solid rgba(212,160,23,0.18);
+      border-radius: 20px; padding: 32px 40px; margin-bottom: 52px; flex-wrap: wrap;
     }
     .ratings-score { text-align: center; flex-shrink: 0; }
-    .ratings-number {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 68px; font-weight: 900;
-      color: var(--gold-light); line-height: 1; margin-bottom: 6px;
-    }
+    .ratings-number { font-family: 'Montserrat', sans-serif; font-size: 68px; font-weight: 900; color: var(--gold-light); line-height: 1; margin-bottom: 6px; }
     .ratings-total { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
     .ratings-bars { flex: 1; min-width: 180px; display: flex; flex-direction: column; gap: 8px; }
     .rating-row { display: flex; align-items: center; gap: 10px; font-size: 12px; color: var(--text-muted); }
@@ -784,14 +524,15 @@
       .ratings-overview { flex-direction: column; padding: 24px 20px; gap: 24px; }
       .ratings-summary { flex-direction: row; gap: 20px; justify-content: center; }
     }
+
     .price-qty { font-family:'Montserrat',sans-serif; font-size:16px; font-weight:700; color:var(--gold-light); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:4px; }
     .price-duration { font-size:13px; color:var(--text-muted); margin-bottom:28px; }
+    /* ACAO 6: apenas 2 precos - riscado + destaque; PIX como linha secundaria pequena */
     .price-original { font-size:14px; color:var(--text-muted); text-decoration:line-through; margin-bottom:4px; }
     .price-main { font-family:'Montserrat',sans-serif; font-size:50px; font-weight:900; color:#fff; line-height:1; }
     .price-main sup { font-size:22px; vertical-align:super; }
     .price-main .cents { font-size:30px; }
-    .price-per { font-size:12px; color:var(--text-muted); margin:5px 0 3px; }
-    .price-installment { font-size:13px; color:#8ABEEE; margin-bottom:28px; }
+    .price-per { font-size:11px; color:var(--text-muted); margin:5px 0 28px; }
     .price-perks { list-style:none; margin-bottom:28px; text-align:left; flex:1; }
     .price-perks li {
       font-size:13.5px; color:#B0B8C8; padding:8px 0;
@@ -799,7 +540,7 @@
       display:flex; align-items:center; gap:10px;
     }
     .price-perks li:last-child { border-bottom:none; }
-    .price-perks li::before { content:'✓'; color:var(--green); font-weight:800; font-size:15px; }
+    .price-perks li::before { content:'&#10003;'; color:var(--green); font-weight:800; font-size:15px; }
     .price-savings {
       display:inline-block;
       background:rgba(31,173,62,0.12); border:1px solid rgba(31,173,62,0.28);
@@ -807,21 +548,49 @@
       padding:5px 15px; border-radius:50px; margin-bottom:22px;
     }
 
+    /* ACAO 2: selos de pagamento dentro de cada card */
+    .payment-seals {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 5px; margin-top: 14px; padding-top: 14px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .pay-seal {
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.13);
+      border-radius: 4px; padding: 3px 7px; font-size: 9px; font-weight: 800;
+      color: #C0C8D8; letter-spacing: 0.5px; text-transform: uppercase;
+    }
+    .pay-seal.visa { background: #1A1F71; color: #fff; border-color: #1A1F71; }
+    .pay-seal.mc { background: #EB001B; color: #fff; border-color: #EB001B; }
+    .pay-seal.pix-s { background: #32BCAD; color: #fff; border-color: #32BCAD; }
+    .pay-seal.ssl-s { color: #4DD870; border-color: rgba(77,216,112,0.3); background: rgba(77,216,112,0.08); }
+
+    /* ACAO 1: garantia 30 dias dentro do pricing */
+    .pricing-guarantee {
+      margin-top: 44px; margin-left: auto; margin-right: auto;
+      background: linear-gradient(135deg, rgba(31,173,62,0.09), rgba(212,160,23,0.05));
+      border: 1px solid rgba(31,173,62,0.3); border-radius: 18px;
+      padding: 28px 36px; display: flex; align-items: center; gap: 24px; max-width: 820px;
+    }
+    .pricing-guarantee .g30-icon { font-size: 56px; flex-shrink: 0; line-height: 1; }
+    .pricing-guarantee .g30-text strong { display: block; font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+    .pricing-guarantee .g30-text p { font-size: 13.5px; color: #9AA0B0; line-height: 1.75; }
+    .pricing-guarantee .g30-text .g30-contact { margin-top: 10px; font-size: 11.5px; color: #4DD870; font-weight: 700; }
+    @media (max-width: 640px) {
+      .pricing-guarantee { flex-direction: column; text-align: center; padding: 22px 18px; gap: 16px; }
+    }
+
     /* ── GUARANTEE ── */
     .guarantee { background: var(--dark2); }
     .guarantee-box {
       background: linear-gradient(135deg,var(--dark3) 0%,#101828 100%);
-      border: 1px solid rgba(212,160,23,0.22);
-      border-radius: 24px;
-      padding: 56px 52px;
-      display: flex; align-items: center; gap: 48px;
+      border: 1px solid rgba(212,160,23,0.22); border-radius: 24px;
+      padding: 56px 52px; display: flex; align-items: center; gap: 48px;
       max-width: 860px; margin: 0 auto;
       box-shadow: 0 0 0 1px rgba(212,160,23,0.06), 0 24px 52px rgba(0,0,0,0.35);
       position: relative; overflow:hidden;
     }
     .guarantee-box::before {
-      content:'';
-      position:absolute; top:-100px; right:-100px;
+      content:''; position:absolute; top:-100px; right:-100px;
       width:280px; height:280px;
       background: radial-gradient(circle,rgba(212,160,23,0.07) 0%,transparent 70%);
     }
@@ -857,108 +626,52 @@
     }
     .faq-a.open { max-height:300px; padding-bottom:22px; }
 
-    /* ── FINAL CTA (photo bg) ── */
-    .final-cta {
-      position: relative;
-      overflow: hidden;
-      padding: 100px 20px;
-      text-align: center;
-    }
+    /* ── FINAL CTA ── */
+    .final-cta { position: relative; overflow: hidden; padding: 100px 20px; text-align: center; }
     .final-cta-bg {
-      position: absolute;
-      inset: 0;
+      position: absolute; inset: 0;
       background: url('tm-01.png') center 30% / cover no-repeat;
       filter: brightness(0.25) saturate(0.6);
     }
     .final-cta-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        135deg,
-        rgba(5,9,15,0.88) 0%,
-        rgba(10,22,55,0.8) 50%,
-        rgba(5,12,26,0.88) 100%
-      );
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(5,9,15,0.88) 0%, rgba(10,22,55,0.8) 50%, rgba(5,12,26,0.88) 100%);
     }
     .final-cta-grid {
       position: absolute; inset: 0;
-      background-image:
-        linear-gradient(rgba(20,85,164,0.07) 1px,transparent 1px),
-        linear-gradient(90deg,rgba(20,85,164,0.07) 1px,transparent 1px);
+      background-image: linear-gradient(rgba(20,85,164,0.07) 1px,transparent 1px), linear-gradient(90deg,rgba(20,85,164,0.07) 1px,transparent 1px);
       background-size:60px 60px;
     }
     .final-cta .section-inner { position:relative; z-index:2; }
     .final-cta h2 { margin-bottom:16px; }
     .final-cta p { font-size:17px; color:rgba(200,210,230,0.85); margin-bottom:42px; max-width:560px; margin-left:auto; margin-right:auto; line-height:1.75; }
+    /* ACAO 9: urgência específica */
     .urgency-bar {
       display:inline-flex; align-items:center; gap:9px;
       background:rgba(220,50,50,0.14); border:1px solid rgba(220,50,50,0.3);
       color:#FF7575; font-size:13px; font-weight:700;
       padding:10px 24px; border-radius:50px; margin-bottom:34px;
     }
-    .urgency-bar::before { content:'🔥'; }
 
     /* ── FOOTER ── */
-    footer {
-      background:#040710; padding:34px 20px;
-      text-align:center; border-top:1px solid rgba(255,255,255,0.05);
-    }
-    footer p { font-size:12px; color:var(--text-muted); line-height:2; }
+    footer { background:#040710; padding:40px 20px; text-align:center; border-top:1px solid rgba(255,255,255,0.05); }
+    footer p { font-size:12px; color:var(--text-muted); line-height:2.1; }
     footer a { color:var(--blue); text-decoration:none; }
     footer a:hover { color:var(--gold); }
+    /* ACAO 4: dados legais no rodape */
+    .footer-legal { margin-top: 12px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.04); }
+    .footer-legal p { font-size: 11px; color: #50606E; line-height: 1.9; }
 
-    /* ── FLOATING CTA (mobile) ── */
+    /* ── FLOATING CTA ── */
     .float-cta {
-      display:none;
-      position:fixed; bottom:0; left:0; right:0; z-index:998;
-      padding:12px 16px;
-      background:rgba(8,12,20,0.96);
-      backdrop-filter:blur(12px);
-      border-top:1px solid rgba(212,160,23,0.2);
+      display:none; position:fixed; bottom:0; left:0; right:0; z-index:998;
+      padding:12px 16px; background:rgba(8,12,20,0.96);
+      backdrop-filter:blur(12px); border-top:1px solid rgba(212,160,23,0.2);
     }
     .float-cta .btn-cta { width:100%; padding:17px 20px; font-size:15px; }
 
-    /* ── ANVISA ── */
-    .anvisa-banner {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      background: linear-gradient(135deg, rgba(31,173,62,0.07), rgba(20,85,164,0.07));
-      border: 1px solid rgba(31,173,62,0.28);
-      border-radius: 14px;
-      padding: 18px 26px;
-      margin-bottom: 44px;
-      font-size: 14px;
-      color: #C0C8D8;
-      line-height: 1.55;
-    }
-    .anvisa-banner-icon { font-size: 32px; flex-shrink: 0; }
-    .anvisa-banner strong { color: #4DD870; font-family: 'Montserrat', sans-serif; }
-    .anvisa-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      background: rgba(31,173,62,0.1);
-      border: 1px solid rgba(31,173,62,0.22);
-      color: #4DD870;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 3px 11px;
-      border-radius: 50px;
-      margin-bottom: 18px;
-    }
-    .trust-badge.anvisa-badge { border-color: rgba(31,173,62,0.25); }
-    .trust-badge.anvisa-badge:hover { background: rgba(31,173,62,0.07); border-color: rgba(31,173,62,0.4); }
-    .trust-badge.anvisa-badge .trust-title { color: #4DD870; }
-
     /* ── DIVIDER ── */
-    .gold-divider {
-      height: 1px;
-      background: linear-gradient(90deg,transparent,rgba(212,160,23,0.22),transparent);
-      margin: 0 auto;
-    }
+    .gold-divider { height: 1px; background: linear-gradient(90deg,transparent,rgba(212,160,23,0.22),transparent); margin: 0 auto; }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
@@ -993,20 +706,21 @@
 <!-- STICKY HEADER -->
 <div class="sticky-header" id="stickyHeader">
   <div class="sticky-logo">TITAN <span>MEN+</span></div>
-  <a href="#pricing" class="sticky-cta">QUERO RECUPERAR MINHA VIRILIDADE ↓</a>
+  <a href="#pricing" class="sticky-cta">GARANTIR MEU KIT &#8595;</a>
 </div>
 
 <!-- TOPBAR -->
 <div class="topbar">
-  ⚠️ ESTOQUE CRÍTICO: Últimas unidades disponíveis &nbsp;|&nbsp; <span>Frete Grátis + Entrega Discreta</span> &nbsp;|&nbsp; 🔒 Todo o Brasil
+  &#128666; Frete Gr&#225;tis para todo o Brasil &nbsp;|&nbsp; <span>Garantia de 30 Dias ou Dinheiro de Volta</span> &nbsp;|&nbsp; &#128274; Compra 100% Segura
 </div>
 
 <!-- HEADER -->
 <header>
   <div class="logo">TITAN <span>MEN+</span></div>
+  <div class="logo-anvisa">Suplemento Alimentar &middot; Reg. ANVISA n&ordm; [INSERIR N&Uacute;MERO] &middot; Ig&eacute;ia Produtos Naturais Ltda.</div>
 </header>
 
-<!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+<!-- ===================== HERO ===================== -->
 <section class="hero">
   <div class="hero-photo-bg"></div>
   <div class="hero-overlay"></div>
@@ -1014,23 +728,24 @@
   <div class="hero-glow-gold"></div>
   <div class="hero-inner">
     <div class="hero-text reveal-left">
-      <div class="badge-pill">⚡ Feno Grego + ZMA — Fórmula Para Homens de Verdade</div>
+      <div class="badge-pill">&#9889; F&#243;rmula Premium &mdash; Feno Grego + ZMA</div>
+      <!-- TESTE A: Headline Version B - nostalgia positiva -->
       <h1 class="hero-title">
-        Sua Mulher Ainda Te Olha Com <span class="highlight">Desejo</span> — Ou Já Olha com Pena?
+        Voc&#234; Lembra Como Era Ter <span class="highlight">Energia de Sobra</span><br>&mdash; Na Academia e Na Cama?
       </h1>
       <p class="hero-subtitle">
-        Com mais de 40 anos, a testosterona cai. A energia some. A ereção falha. O treino empaca. Você não é o mesmo homem de antes — e todo mundo ao seu redor já percebeu. <strong style="color:#fff;">Isso não é "coisa da idade". É deficiência hormonal. E tem solução.</strong>
+        A combina&#231;&#227;o cient&#237;fica de Feno Grego e ZMA que homens de alto desempenho usam para turbinar testosterone, ganhar m&#250;sculo e ter energia de sobra &mdash; de volta.
       </p>
       <ul class="hero-bullets">
-        <li>Testosterona de volta — libido, pique e virilidade real</li>
-        <li>Performance na cama e na academia restaurada</li>
-        <li>Fim do cansaço crônico, sono ruim e humor no chão</li>
-        <li>Força muscular e recuperação acelerada</li>
-        <li>Fórmula 100% natural — Ativos aprovados pela ANVISA</li>
+        <li>Eleva naturalmente os n&#237;veis de testosterone</li>
+        <li>Melhora for&#231;a, resist&#234;ncia e recupera&#231;&#227;o muscular</li>
+        <li>Combate cansa&#231;o e aumenta disposi&#231;&#227;o no dia a dia</li>
+        <li>Melhora qualidade do sono e humor</li>
+        <li>F&#243;rmula 100% natural com 30 c&#225;psulas</li>
       </ul>
       <a href="#pricing" class="btn-cta">
-        QUERO RECUPERAR MINHA VIRILIDADE AGORA
-        <small>👇 Escolha seu pacote com desconto</small>
+        QUERO MEU TITAN MEN+ AGORA
+        <small>&#128071; Escolha seu pacote abaixo com desconto</small>
       </a>
     </div>
     <div class="hero-image-wrap reveal-right">
@@ -1041,59 +756,54 @@
   </div>
 </section>
 
-<!-- ═══════════════════ TRUST STRIP ═══════════════════ -->
+<!-- ===================== TRUST STRIP ===================== -->
 <div class="trust-strip">
   <div class="trust-strip-inner">
     <div class="trust-badge reveal delay-1">
-      <span class="trust-icon">🔒</span>
+      <span class="trust-icon">&#128274;</span>
       <span class="trust-title">Compra<br>Segura</span>
       <span class="trust-sub">SSL 256-bit</span>
     </div>
     <div class="trust-badge reveal delay-2">
-      <span class="trust-icon">🚚</span>
-      <span class="trust-title">Entrega<br>Rápida</span>
+      <span class="trust-icon">&#128666;</span>
+      <span class="trust-title">Entrega<br>R&#225;pida</span>
       <span class="trust-sub">Todo o Brasil</span>
     </div>
     <div class="trust-badge reveal delay-3">
-      <span class="trust-icon">🌿</span>
-      <span class="trust-title">Fórmula<br>Natural</span>
+      <span class="trust-icon">&#127807;</span>
+      <span class="trust-title">F&#243;rmula<br>Natural</span>
       <span class="trust-sub">100% Vegetal</span>
     </div>
     <div class="trust-badge reveal delay-4">
-      <span class="trust-icon">🏅</span>
-      <span class="trust-title">Qualidade<br>Igéia</span>
+      <span class="trust-icon">&#127885;</span>
+      <span class="trust-title">Qualidade<br>Ig&#233;ia</span>
       <span class="trust-sub">Certificada</span>
     </div>
     <div class="trust-badge reveal delay-5">
-      <span class="trust-icon">📦</span>
+      <span class="trust-icon">&#128230;</span>
       <span class="trust-title">Embalagem<br>Discreta</span>
       <span class="trust-sub">Privacidade total</span>
-    </div>
-    <div class="trust-badge anvisa-badge reveal delay-5">
-      <span class="trust-icon">🏛️</span>
-      <span class="trust-title">Ativos<br>Aprovados</span>
-      <span class="trust-sub">Reg. ANVISA</span>
     </div>
   </div>
 </div>
 
-<!-- PROOF BAR -->
+<!-- PROOF BAR: ACAO 3 - numeros estaticos, sem animacao de contagem -->
 <div class="proof-bar">
   <div class="proof-bar-inner">
     <div class="proof-item reveal delay-1">
-      <strong data-count="4700" data-suffix="+">0+</strong>
+      <strong>4.700+</strong>
       <span>Homens Transformados</span>
     </div>
     <div class="proof-item reveal delay-2">
-      <strong data-count-dec="4.8" data-suffix="★">0★</strong>
-      <span>Avaliação Média</span>
+      <strong>4.8&#9733;</strong>
+      <span>Avalia&#231;&#227;o M&#233;dia</span>
     </div>
     <div class="proof-item reveal delay-3">
-      <strong data-count="2">0</strong>
+      <strong>2</strong>
       <span>Ingredientes Ativos Chave</span>
     </div>
     <div class="proof-item reveal delay-4">
-      <strong data-count="30">0</strong>
+      <strong>30</strong>
       <span>Dias de Tratamento</span>
     </div>
   </div>
@@ -1101,197 +811,318 @@
 
 <div class="gold-divider"></div>
 
-<!-- ═══════════════════ PROBLEM (photo bg) ═══════════════════ -->
+<!-- ===================== PROBLEM ===================== -->
 <section class="problem">
   <div class="problem-photo-bg"></div>
   <div class="problem-overlay"></div>
   <div class="section-inner">
-    <span class="section-tag reveal">Você se identifica?</span>
-    <h2 class="reveal">Seu Corpo Está Te Traindo. <em>Mas Você Ainda Pode Reagir.</em></h2>
-    <p class="section-sub reveal">Depois dos 40, a testosterona cai em média 1% ao ano. Sem reposição natural, o resultado aparece na cama, na academia e no espelho. Isso é bioquímica — não fraqueza. E dá pra mudar.</p>
+    <span class="section-tag reveal">Voc&#234; se identifica?</span>
+    <h2 class="reveal">Isso Acontece Com Voc&#234; <em>Todo Dia?</em></h2>
+    <p class="section-sub reveal">Depois dos 30, o corpo come&#231;a a trair. N&#227;o &#233; fraqueza &mdash; &#233; biologia. Mas d&#225; pra mudar isso.</p>
     <div class="problem-grid">
       <div class="problem-card reveal delay-1">
-        <span class="icon">😴</span>
-        <h3>Acorda Destruído Todo Dia</h3>
-        <p>Dormiu 8 horas e ainda parece que foi atropelado. Esse cansaço crônico tem nome: queda de testosterona e deficiência de magnésio. Não é preguiça — é bioquímica sabotando tudo.</p>
+        <span class="icon">&#128564;</span>
+        <h3>Cansa&#231;o Constante</h3>
+        <p>Acorda cansado, sem energia pra treinar ou encarar o dia com disposi&#231;&#227;o.</p>
       </div>
       <div class="problem-card reveal delay-2">
-        <span class="icon">📉</span>
-        <h3>Na Academia, Você Só Regride</h3>
-        <p>O peso que você levantava antes parece impossível agora. Sua recuperação piorou, os músculos somem. Você treina igual — mas o resultado foi embora junto com os 30 anos.</p>
+        <span class="icon">&#128201;</span>
+        <h3>Queda de Performance</h3>
+        <p>For&#231;a nos treinos caindo, resultados estagnados mesmo se dedicando.</p>
       </div>
       <div class="problem-card reveal delay-3">
-        <span class="icon">🔥</span>
-        <h3>Na Cama, Faltou Gás</h3>
-        <p>Libido caiu, pique sumiu, e quando chega a hora… nem sempre dá. Você sabe do que estou falando. E faz de conta que não é problema — mas é.</p>
+        <span class="icon">&#128548;</span>
+        <h3>Humor Inst&#225;vel</h3>
+        <p>Irritado sem motivo, motiva&#231;&#227;o l&#225; embaixo e libido que some.</p>
       </div>
       <div class="problem-card reveal delay-4">
-        <span class="icon">🌙</span>
-        <h3>Sono Que Não Descansa</h3>
-        <p>Acorda 3, 4 vezes por noite. Corpo tenso, mente acelerada. Manhã horrível. Sem magnésio suficiente, seu sistema nervoso nunca desliga de verdade.</p>
+        <span class="icon">&#127769;</span>
+        <h3>Sono Ruim</h3>
+        <p>Dificuldade pra pegar no sono, acorda v&#225;rias vezes sem recuperar energia.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ BENEFITS ═══════════════════ -->
+<!-- ===================== BENEFITS ===================== -->
 <section class="benefits">
   <div class="section-inner">
-    <span class="section-tag reveal">O que você vai sentir de volta</span>
-    <h2 class="reveal">Tudo Que Você Perdeu <em>Voltando de Uma Vez</em></h2>
-    <p class="section-sub reveal">Titan Men+ age em múltiplas frentes — da testosterona ao sono, da academia à cama. Porque homem de verdade não aceita funcionar pela metade.</p>
+    <span class="section-tag reveal">O que voc&#234; ganha</span>
+    <h2 class="reveal">6 Benef&#237;cios Que V&#227;o <em>Mudar Seu Jogo</em></h2>
+    <p class="section-sub reveal">Titan Men+ age em m&#250;ltiplas frentes para voc&#234; se sentir no pico da performance.</p>
     <div class="benefits-grid">
       <div class="benefit-card reveal delay-1">
-        <div class="benefit-icon">🔥</div>
-        <h3>Testosterona de Volta</h3>
-        <p>O Feno Grego age diretamente na produção hormonal. Em 30 dias de uso consistente, sua vitalidade masculina começa a responder — do jeito que você lembra.</p>
+        <div class="benefit-icon">&#128293;</div>
+        <h3>Testosterone Natural</h3>
+        <p>O Feno Grego atua na produ&#231;&#227;o hormonal, elevando naturalmente seus n&#237;veis de testosterone e vitalidade masculina.</p>
       </div>
       <div class="benefit-card reveal delay-2">
-        <div class="benefit-icon">💪</div>
-        <h3>Força e Músculo de Novo</h3>
-        <p>Zinco + magnésio aceleram a recuperação muscular. Você vai treinar mais pesado, recuperar mais rápido e ver resultado de novo — sem estagnação.</p>
+        <div class="benefit-icon">&#128170;</div>
+        <h3>For&#231;a e Recupera&#231;&#227;o</h3>
+        <p>Magn&#233;sio e zinco aceleram a recupera&#231;&#227;o muscular p&#243;s-treino, permitindo treinar com mais intensidade e freq&#252;&#234;ncia.</p>
       </div>
       <div class="benefit-card reveal delay-3">
-        <div class="benefit-icon">⚡</div>
-        <h3>Energia Que Sustenta o Dia</h3>
-        <p>Sem colapso às 15h. Sem depender de cafeína pra funcionar. A vitamina B6 no metabolismo de proteínas gera energia real, não estimulante artificial.</p>
+        <div class="benefit-icon">&#9889;</div>
+        <h3>Energia Imb at&#237;vel</h3>
+        <p>Vitamina B6 no metabolismo de prote&#237;nas gera mais energia dispon&#237;vel para o corpo e combate a fadiga cr&#244;nica.</p>
       </div>
       <div class="benefit-card reveal delay-1">
-        <div class="benefit-icon">🔞</div>
-        <h3>Libido e Performance de Volta</h3>
-        <p>Zinco é o mineral mais ligado à saúde sexual masculina. Feno Grego aumenta testosterona livre. A combinação funciona — e você vai sentir na hora certa.</p>
+        <div class="benefit-icon">&#129504;</div>
+        <h3>Foco e Humor</h3>
+        <p>Neurotransmissores otimizados pela B6 melhoram disposi&#231;&#227;o mental, concentra&#231;&#227;o e estabilidade de humor.</p>
       </div>
       <div class="benefit-card reveal delay-2">
-        <div class="benefit-icon">🌙</div>
-        <h3>Sono Profundo de Verdade</h3>
-        <p>Magnésio é o relaxante muscular mais eficaz que existe. Com ele, você dorme fundo, não acorda no meio da noite e acorda humano — não destruído.</p>
+        <div class="benefit-icon">&#127769;</div>
+        <h3>Sono Profundo</h3>
+        <p>Magn&#233;sio &#233; comprovado para promover relaxamento muscular e melhorar a qualidade do sono &mdash; o maior recuperador.</p>
       </div>
       <div class="benefit-card reveal delay-3">
-        <div class="benefit-icon">🧠</div>
-        <h3>Foco e Humor Estável</h3>
-        <p>Chega de ser irritado sem motivo, de perder o fio, de se sentir perdido. Neurotransmissores equilibrados = mente afiada, decisões melhores, relacionamentos melhores.</p>
+        <div class="benefit-icon">&#128737;&#65039;</div>
+        <h3>Imunidade Refor&#231;ada</h3>
+        <p>Zinco &#233; essencial para a sa&#250;de do sistema imune e sa&#250;de reprodutiva masculina &mdash; voc&#234; protegido de dentro pra fora.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ HOW IT WORKS ═══════════════════ -->
+<!-- ===================== HOW IT WORKS ===================== -->
 <section class="how">
   <div class="section-inner">
     <span class="section-tag reveal">Como funciona</span>
-    <h2 class="reveal">Uma Cápsula. <em>Resultado Real. Sem Enrolação.</em></h2>
-    <p class="section-sub reveal" style="margin-bottom:40px;">Sem protocolo complicado. Sem mudança radical de rotina. Só o que funciona de verdade — baseado em ciência, sentido no corpo.</p>
+    <h2 class="reveal">Simples, Direto, <em>Eficaz</em></h2>
+    <p class="section-sub reveal" style="margin-bottom:30px;">Sem complica&#231;&#227;o. Uma c&#225;psula j&#225; integra o protocolo do dia.</p>
     <div class="steps">
       <div class="step reveal delay-1">
         <div class="step-num">1</div>
         <div class="step-content">
-          <h3>Tome à noite, antes de dormir</h3>
-          <p>Uma cápsula. Sem complicação. O melhor momento é o sono — quando o corpo recupera tudo. De preferência com o estômago vazio ou leve, para absorção máxima.</p>
+          <h3>Tome sua c&#225;psula di&#225;ria</h3>
+          <p>Consuma conforme orienta&#231;&#227;o do nutricionista &mdash; de prefer&#234;ncia &#224; noite, antes de dormir, para maximizar a recupera&#231;&#227;o.</p>
         </div>
       </div>
       <div class="step reveal delay-2">
         <div class="step-num">2</div>
         <div class="step-content">
-          <h3>O ZMA trabalha enquanto você descansa</h3>
-          <p>Durante o sono profundo, zinco, magnésio e B6 atuam em sinergia: recuperação muscular, regulação hormonal, regeneração celular. Seu corpo se conserta enquanto você dorme.</p>
+          <h3>O ZMA age durante o sono</h3>
+          <p>Durante o descanso, zinco, magn&#233;sio e B6 trabalham em sinergia para recuperar m&#250;sculos e regular horm&#244;nios naturalmente.</p>
         </div>
       </div>
       <div class="step reveal delay-3">
         <div class="step-num">3</div>
         <div class="step-content">
-          <h3>Feno Grego sustenta os hormônios durante o dia</h3>
-          <p>Com ação prolongada, o extrato apoia a produção de testosterona e mantém seus níveis de energia e libido estáveis — do amanhecer até a hora que importa.</p>
+          <h3>Feno Grego sustenta o dia</h3>
+          <p>Com a&#231;&#227;o prolongada, o extrato de Feno Grego apoia a produ&#231;&#227;o hormonal e mant&#233;m seus n&#237;veis de energia est&#225;veis.</p>
         </div>
       </div>
       <div class="step reveal delay-4">
         <div class="step-num">4</div>
         <div class="step-content">
-          <h3>Os resultados chegam e ficam</h3>
-          <p>Semana 1: sono mais profundo. Semana 2: energia e humor. Mês 1: força, libido e performance de volta — do jeito que você lembrava e merecia ter.</p>
+          <h3>Resultados progressivos</h3>
+          <p>Nos primeiros dias: sono melhorado. Na 2&#170; semana: energia e foco. No 1&#186; m&#234;s: performance, for&#231;a e vitalidade de volta.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ INGREDIENTS ═══════════════════ -->
+<!-- ===================== INGREDIENTS ===================== -->
 <section class="ingredients">
   <div class="section-inner">
     <span class="section-tag reveal">Ingredientes</span>
-    <h2 class="reveal">Por Que Essa Fórmula Funciona <em>Quando Tudo Que Você Tentou Antes Falhou</em></h2>
-    <p class="section-sub reveal">Sem ingrediente de enfeite. Cada componente tem função específica, dose eficaz e evidência científica. É isso que separa Titan Men+ de qualquer outra coisa no mercado.</p>
-    <div class="anvisa-banner reveal">
-      <span class="anvisa-banner-icon">🏛️</span>
-      <span><strong>Todos os ativos aprovados pela ANVISA</strong> — Feno Grego, Zinco, Magnésio e Vitamina B6 são ingredientes regulamentados e permitidos para uso em suplementos alimentares conforme a legislação brasileira vigente (IN ANVISA nº 76/2020).</span>
+    <h2 class="reveal">A Ci&#234;ncia Por <em>Tr&#225;s da F&#243;rmula</em></h2>
+    <p class="section-sub reveal" style="margin-bottom:20px;">Nada sup&#233;rfluo. Cada ingrediente selecionado com prop&#243;sito e efic&#225;cia comprovada.</p>
+    <!-- ACAO 7: Numero de registro ANVISA -->
+    <div class="anvisa-note reveal">
+      &#127963;&#65039; <strong>Titan Men+</strong> &mdash; Suplemento Alimentar registrado na ANVISA &middot; Reg. n&#186; <strong>[INSERIR N&Uacute;MERO DE REGISTRO ANVISA]</strong> &middot; Fabricado por Ig&#233;ia Produtos Naturais Ltda. &middot; S&#227;o Paulo, Brasil
     </div>
+    <!-- ACAO 10: Dosagem de cada ingrediente -->
     <div class="ingr-grid">
       <div class="ingr-card reveal delay-1">
         <h3>Feno Grego</h3>
         <div class="ingr-sub">Trigonella Foenum-Graecum</div>
-        <div class="anvisa-tag">✓ Aprovado ANVISA</div>
+        <div class="ingr-dose">450mg por c&#225;psula &mdash; dose validada em estudos cl&#237;nicos</div>
         <div class="ingr-bar"><div class="ingr-bar-fill" style="--fill:92%"></div></div>
-        <p>Usado há milênios, validado pela ciência moderna. Aumenta testosterona livre, melhora libido e energia. É o ingrediente que faz homens de 50 anos se sentirem como de 30.</p>
+        <p>Fitoterap&#234;utico utilizado h&#225; mil&#234;nios. Estudos modernos confirmam sua a&#231;&#227;o na regula&#231;&#227;o hormonal e suporte ao metabolismo. Por que n&#227;o comprar um gen&#233;rico por R$30? A dose importa &mdash; aqui voc&#234; tem a dosagem terap&#234;utica comprovada nos estudos cl&#237;nicos de suporte hormonal masculino.</p>
       </div>
       <div class="ingr-card reveal delay-2">
         <h3>Zinco (ZMA)</h3>
-        <div class="ingr-sub">O Mineral da Masculinidade</div>
-        <div class="anvisa-tag">✓ Aprovado ANVISA</div>
+        <div class="ingr-sub">Mineral Essencial</div>
+        <div class="ingr-dose">30mg por c&#225;psula &mdash; dose padr&#227;o do protocolo ZMA</div>
         <div class="ingr-bar"><div class="ingr-bar-fill" style="--fill:88%"></div></div>
-        <p>Regula mais de 300 enzimas. Indispensável para testosterona, fertilidade e saúde sexual. A maioria dos homens brasileiros tem deficiência — e não sabe. Você provavelmente é um deles.</p>
+        <p>Um dos minerais mais importantes para a sa&#250;de masculina. Regula mais de 300 enzimas, &#233; essencial para a produ&#231;&#227;o de testosterone e sa&#250;de imune. Suplemnentos gen&#233;ricos usam &#243;xido de zinco (baixa absor&#231;&#227;o) &mdash; aqui usamos a forma quelada, muito mais eficiente.</p>
       </div>
       <div class="ingr-card reveal delay-3">
-        <h3>Magnésio (ZMA)</h3>
-        <div class="ingr-sub">Recuperação Total</div>
-        <div class="anvisa-tag">✓ Aprovado ANVISA</div>
+        <h3>Magn&#233;sio (ZMA)</h3>
+        <div class="ingr-sub">Mineral de Recupera&#231;&#227;o</div>
+        <div class="ingr-dose">450mg por c&#225;psula &mdash; dose validada para qualidade de sono</div>
         <div class="ingr-bar"><div class="ingr-bar-fill" style="--fill:85%"></div></div>
-        <p>Mais de 60% dos homens são deficientes em magnésio. Sem ele: câimbras, sono ruim, ansiedade, pressão alta e performance horrível — na academia e na cama.</p>
+        <p>Respons&#225;vel pela fun&#231;&#227;o muscular, relaxamento e qualidade do sono. A maioria dos homens vive com defici&#234;ncia sem saber. A dose de 450mg &#233; a refer&#234;ncia dos estudos cl&#237;nicos de qualidade de sono e recupera&#231;&#227;o muscular.</p>
       </div>
       <div class="ingr-card reveal delay-4">
         <h3>Vitamina B6 (ZMA)</h3>
-        <div class="ingr-sub">O Amplificador</div>
-        <div class="anvisa-tag">✓ Aprovado ANVISA</div>
+        <div class="ingr-sub">Coenzima Metab&#243;lica</div>
+        <div class="ingr-dose">10,5mg por c&#225;psula &mdash; dose sin&#233;rgica com zinco e magn&#233;sio</div>
         <div class="ingr-bar"><div class="ingr-bar-fill" style="--fill:80%"></div></div>
-        <p>Potencializa a absorção do zinco e magnésio. Age nos neurotransmissores do humor e energia. Sem ela, os outros ingredientes perdem metade do efeito.</p>
+        <p>Maximiza a absor&#231;&#227;o do zinco e magn&#233;sio em at&#233; 30%, al&#233;m de atuar no metabolismo de prote&#237;nas e na produ&#231;&#227;o de neurotransmissores. &#201; o que diferencia um ZMA de qualidade de um suplemento gen&#233;rico de prateleira.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ PHOTO BREAK (mid-page) ═══════════════════ -->
+<!-- ===================== PHOTO BREAK ===================== -->
 <div class="photo-break">
   <div class="photo-break-bg"></div>
   <div class="photo-break-overlay"></div>
   <div class="photo-break-content">
-    <span class="section-tag reveal" style="justify-content:center;">A decisão é sua</span>
-    <h2 class="reveal" style="margin-bottom:14px;">Enquanto Você Hesita, <em>Outro Homem Não Hesita</em></h2>
-    <p class="reveal delay-1">A diferença entre o homem que sua mulher deseja e o que ela tolera é menor do que você imagina. Não é questão de idade — é questão de escolha.</p>
+    <span class="section-tag reveal" style="justify-content:center;">Sua vers&#227;o alfa</span>
+    <h2 class="reveal" style="margin-bottom:14px;">Homens que <em>N&#227;o Aceitam</em> Menos do que o M&#225;ximo</h2>
+    <p class="reveal delay-1">N&#227;o importa sua idade. Com a combina&#231;&#227;o certa de nutrientes, seu corpo pode responder como nos seus melhores anos.</p>
     <a href="#pricing" class="btn-cta reveal delay-2">
-      QUERO ESSA TRANSFORMAÇÃO
-      <small>Entrega discreta. Satisfação garantida.</small>
+      QUERO ESSA TRANSFORMA&#199;&#195;O
+      <small>Garantia de 30 dias inclu&#237;da</small>
     </a>
   </div>
 </div>
 
-<!-- ═══════════════════ TESTIMONIALS ═══════════════════ -->
+<!-- ===================== PRICING (TESTE B: antes dos depoimentos) ===================== -->
+<section class="pricing" id="pricing">
+  <div class="section-inner">
+    <span class="section-tag reveal">Escolha seu pacote</span>
+    <h2 class="reveal">Invista na Sua <em>Melhor Vers&#227;o</em></h2>
+    <p class="section-sub reveal">Quanto maior o pacote, maior o desconto &mdash; e mais consistentes os resultados.</p>
+    <div class="pricing-grid">
+
+      <!-- 1 FRASCO -->
+      <div class="price-card reveal delay-1">
+        <div class="price-units-img">
+          <img class="bottle" src="titanMenNoBG.png" alt="1 frasco" />
+        </div>
+        <div class="price-qty">1 Frasco</div>
+        <div class="price-duration">30 dias de tratamento</div>
+        <!-- ACAO 6: apenas 2 precos + PIX como linha secundaria -->
+        <div class="price-original">De R$ 128,00</div>
+        <div class="price-main"><sup>R$</sup>115<span class="cents">,00</span></div>
+        <div class="price-per">ou <strong style="color:var(--gold-light)">R$ 109,25 no PIX</strong> (5% off)</div>
+        <div class="price-savings">Economize R$ 13,00</div>
+        <ul class="price-perks">
+          <li>30 c&#225;psulas (1 m&#234;s)</li>
+          <li>Feno Grego + ZMA</li>
+          <li>Frete gr&#225;tis</li>
+          <li>Entrega em 5&ndash;10 dias &#250;teis</li>
+        </ul>
+        <a href="https://checkout.igeiaoficial.com.br/VCCL1O8SD00N" target="_blank" class="btn-cta">
+          COMPRAR AGORA
+          <small>1 Frasco &mdash; R$ 115,00</small>
+        </a>
+        <!-- ACAO 2: selos de pagamento -->
+        <div class="payment-seals">
+          <span class="pay-seal visa">VISA</span>
+          <span class="pay-seal mc">Mastercard</span>
+          <span class="pay-seal pix-s">PIX</span>
+          <span class="pay-seal">Boleto</span>
+          <span class="pay-seal ssl-s">&#128274; SSL</span>
+        </div>
+      </div>
+
+      <!-- 2 FRASCOS: ACAO 5 - badge azul ESCOLHA INTELIGENTE -->
+      <div class="price-card reveal delay-2" style="padding-top:52px;">
+        <div class="eco-badge">&#128161; ESCOLHA INTELIGENTE</div>
+        <div class="price-units-img">
+          <img class="bottle" src="titanMenNoBG.png" alt="2 frascos" />
+          <img class="bottle" src="titanMenNoBG.png" alt="2 frascos" />
+        </div>
+        <div class="price-qty">2 Frascos</div>
+        <div class="price-duration">60 dias de tratamento</div>
+        <div class="price-original">De R$ 230,00</div>
+        <div class="price-main"><sup>R$</sup>179<span class="cents">,00</span></div>
+        <div class="price-per">ou <strong style="color:var(--gold-light)">R$ 170,05 no PIX</strong> (5% off)</div>
+        <div class="price-savings">Economize R$ 51,00</div>
+        <ul class="price-perks">
+          <li>60 c&#225;psulas (2 meses)</li>
+          <li>Feno Grego + ZMA</li>
+          <li>Frete gr&#225;tis priorit&#225;rio</li>
+          <li>Entrega em 3&ndash;7 dias &#250;teis</li>
+        </ul>
+        <a href="https://checkout.igeiaoficial.com.br/VCCL1O8SD00M" target="_blank" class="btn-cta">
+          COMPRAR AGORA
+          <small>2 Frascos &mdash; R$ 179,00</small>
+        </a>
+        <div class="payment-seals">
+          <span class="pay-seal visa">VISA</span>
+          <span class="pay-seal mc">Mastercard</span>
+          <span class="pay-seal pix-s">PIX</span>
+          <span class="pay-seal">Boleto</span>
+          <span class="pay-seal ssl-s">&#128274; SSL</span>
+        </div>
+      </div>
+
+      <!-- 3 FRASCOS: ACAO 5 - MAIS VENDIDO (era o 2 frascos) -->
+      <div class="price-card featured reveal delay-3">
+        <div class="best-badge">&#128293; MAIS VENDIDO</div>
+        <div class="price-units-img">
+          <img class="bottle" src="titanMenNoBG.png" alt="3 frascos" />
+          <img class="bottle" src="titanMenNoBG.png" alt="3 frascos" />
+          <img class="bottle" src="titanMenNoBG.png" alt="3 frascos" />
+        </div>
+        <div class="price-qty">3 Frascos</div>
+        <div class="price-duration">90 dias de tratamento</div>
+        <div class="price-original">De R$ 345,00</div>
+        <div class="price-main"><sup>R$</sup>229<span class="cents">,00</span></div>
+        <div class="price-per">ou <strong style="color:var(--gold-light)">R$ 217,55 no PIX</strong> (5% off)</div>
+        <div class="price-savings">Economize R$ 116,00 &#128293;</div>
+        <ul class="price-perks">
+          <li>90 c&#225;psulas (3 meses)</li>
+          <li>Feno Grego + ZMA</li>
+          <li>Frete gr&#225;tis express</li>
+          <li>Entrega em 2&ndash;5 dias &#250;teis</li>
+        </ul>
+        <a href="https://checkout.igeiaoficial.com.br/VCCL1O8SD00O" target="_blank" class="btn-cta">
+          COMPRAR AGORA
+          <small>3 Frascos &mdash; R$ 229,00</small>
+        </a>
+        <div class="payment-seals">
+          <span class="pay-seal visa">VISA</span>
+          <span class="pay-seal mc">Mastercard</span>
+          <span class="pay-seal pix-s">PIX</span>
+          <span class="pay-seal">Boleto</span>
+          <span class="pay-seal ssl-s">&#128274; SSL</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ACAO 1: Garantia 30 dias DENTRO do pricing -->
+    <div class="pricing-guarantee reveal">
+      <div class="g30-icon">&#128737;&#65039;</div>
+      <div class="g30-text">
+        <strong>Garantia Incondicional de 30 Dias &mdash; Sem Burocracia</strong>
+        <p>Se em 30 dias voc&#234; n&#227;o sentir diferen&#231;a, devolvemos 100% do seu dinheiro. Sem perguntas, sem formul&#225;rios, sem enrola&#231;&#227;o. Simples assim: entre em contato e processamos o reembolso imediatamente.</p>
+        <div class="g30-contact">&#128231; suporte@igeia.com.br &nbsp;|&nbsp; &#128172; WhatsApp: (11) 9XXXX-XXXX</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS (TESTE B: depois do pricing) ===================== -->
 <section class="testimonials">
   <div class="section-inner">
     <span class="section-tag reveal">O que dizem os clientes</span>
-    <h2 class="reveal">Homens que Decidiram <em>Parar de Aceitar Menos</em></h2>
-    <p class="section-sub reveal">Resultados reais de homens reais — que cansaram de fingir que estava tudo bem.</p>
+    <h2 class="reveal">Homens Reais, <em>Resultados Reais</em></h2>
+    <p class="section-sub reveal">Veja o que outros est&#227;o falando depois de experimentar o Titan Men+.</p>
 
     <!-- RATINGS OVERVIEW -->
     <div class="ratings-overview reveal">
       <div class="ratings-score">
         <div class="ratings-number">4.8</div>
-        <div class="stars" style="font-size:22px; margin-bottom:4px;">★★★★★</div>
+        <div class="stars" style="font-size:22px; margin-bottom:4px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <div class="ratings-total">de 5 estrelas</div>
       </div>
       <div class="ratings-bars">
-        <div class="rating-row"><span>5★</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:87%"></div></div><span>87%</span></div>
-        <div class="rating-row"><span>4★</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:9%"></div></div><span>9%</span></div>
-        <div class="rating-row"><span>3★</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:3%"></div></div><span>3%</span></div>
-        <div class="rating-row"><span>2★</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:1%"></div></div><span>1%</span></div>
-        <div class="rating-row"><span>1★</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:0%"></div></div><span>0%</span></div>
+        <div class="rating-row"><span>5&#9733;</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:87%"></div></div><span>87%</span></div>
+        <div class="rating-row"><span>4&#9733;</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:9%"></div></div><span>9%</span></div>
+        <div class="rating-row"><span>3&#9733;</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:3%"></div></div><span>3%</span></div>
+        <div class="rating-row"><span>2&#9733;</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:1%"></div></div><span>1%</span></div>
+        <div class="rating-row"><span>1&#9733;</span><div class="rating-bar"><div class="rating-bar-fill" style="--w:0%"></div></div><span>0%</span></div>
       </div>
       <div class="ratings-summary">
         <div class="rating-stat"><strong>4.700+</strong><span>Clientes</span></div>
@@ -1302,90 +1133,75 @@
 
     <div class="testi-grid">
       <div class="testi-card reveal delay-1">
-        <div class="stars">★★★★★</div>
-        <p>"Na terceira semana já senti diferença no treino. Mais peso, menos cansaço, sono muito melhor. Mas o que mais me surpreendeu foi o pique de volta — minha esposa percebeu antes de mim. Nunca mais fico sem."</p>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Comecei a tomar e na terceira semana j&#225; senti diferen&#231;a no treino. Mais peso, menos cansa&#231;o e durmo muito melhor. Nunca mais fico sem!"</p>
         <div class="testi-author">
           <div class="testi-avatar">RF</div>
           <div class="testi-author-info">
             <strong>Ricardo F.</strong>
             <span>Personal Trainer, 38 anos</span>
-            <div class="verified-badge">✓ Compra verificada</div>
+            <div class="verified-badge">&#10003; Compra verificada</div>
           </div>
         </div>
       </div>
       <div class="testi-card reveal delay-2">
-        <div class="stars">★★★★★</div>
-        <p>"Estava sem energia pra nada — e sem pique pra minha esposa também, embora eu nunca admitisse isso. Ela notou a diferença antes de mim, em tudo. Produto sério. Foco, disposição e aquilo que a gente não fala em voz alta: tudo voltou."</p>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Estava me sentindo sem energia pra nada. Minha esposa notou a diferen&#231;a antes de mim. Foco e disposi&#231;&#227;o voltaram. Produto s&#233;rio."</p>
         <div class="testi-author">
           <div class="testi-avatar">MC</div>
           <div class="testi-author-info">
             <strong>Marcos C.</strong>
-            <span>Empresário, 44 anos</span>
-            <div class="verified-badge">✓ Compra verificada</div>
+            <span>Empres&#225;rio, 44 anos</span>
+            <div class="verified-badge">&#10003; Compra verificada</div>
           </div>
         </div>
       </div>
       <div class="testi-card reveal delay-3">
-        <div class="stars">★★★★★</div>
-        <p>"Usei o primeiro frasco com ceticismo. No segundo já comprei o kit de 3. O sono profundo que tenho agora mudou tudo — treino, humor, produtividade."</p>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Usei o primeiro frasco com ceticismo. No segundo j&#225; comprei o kit de 3. O sono profundo que tenho agora mudou tudo &mdash; treino, humor, produtividade."</p>
         <div class="testi-author">
           <div class="testi-avatar">TL</div>
           <div class="testi-author-info">
             <strong>Thiago L.</strong>
             <span>Atleta amador, 34 anos</span>
-            <div class="verified-badge">✓ Compra verificada</div>
+            <div class="verified-badge">&#10003; Compra verificada</div>
           </div>
         </div>
       </div>
-
       <div class="testi-card reveal delay-1">
-        <div class="stars">★★★★★</div>
-        <p>"Tinha 52 anos e estava resignado. Achei que era só a idade. Em 3 semanas, minha mulher perguntou o que tinha mudado em mim — na cama e fora dela. Comprei o kit de 3 frascos na hora."</p>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Tinha 52 anos e achei que a queda de energia era s&#243; a idade passando. Minha esposa me convenceu a tentar. Em menos de 3 semanas meu humor mudou radicalmente &mdash; ela foi a primeira a notar a diferen&#231;a."</p>
         <div class="testi-author">
           <div class="testi-avatar">EM</div>
           <div class="testi-author-info">
             <strong>Eduardo M.</strong>
             <span>Gerente Comercial, 52 anos</span>
-            <div class="verified-badge">✓ Compra verificada</div>
+            <div class="verified-badge">&#10003; Compra verificada</div>
           </div>
         </div>
       </div>
-
       <div class="testi-card reveal delay-2">
-        <div class="stars">★★★★★</div>
-        <p>"Crossfit há 4 anos e nunca consegui recuperar direito entre os treinos. Com Titan Men+ meu sono foi de 5h agitadas para 7h de sono profundo. A diferença na força e na composição foi visível em 3 semanas."</p>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Crossfit h&#225; 4 anos e nunca consegui recuperar direito entre os treinos. Com Titan Men+ meu sono foi de 5h agitadas para 7h de sono profundo. A diferen&#231;a na for&#231;a e na composi&#231;&#227;o foi vis&#237;vel em 3 semanas."</p>
         <div class="testi-author">
           <div class="testi-avatar">LR</div>
           <div class="testi-author-info">
             <strong>Leandro R.</strong>
             <span>Crossfiteiro, 29 anos</span>
-            <div class="verified-badge">✓ Compra verificada</div>
+            <div class="verified-badge">&#10003; Compra verificada</div>
           </div>
         </div>
       </div>
-
-      <div class="testi-card reveal delay-2">
-        <div class="stars">★★★★★</div>
-        <p>"Seis meses com problemas de ereção. Médico disse que era stress. Comecei o Titan Men+ e na segunda semana a diferença foi clara. Isso deveria ser obrigatório pra todo homem acima dos 45."</p>
-        <div class="testi-author">
-          <div class="testi-avatar">CB</div>
-          <div class="testi-author-info">
-            <strong>Carlos B.</strong>
-            <span>Engenheiro, 47 anos</span>
-            <div class="verified-badge">✓ Compra verificada</div>
-          </div>
-        </div>
-      </div>
-
+      <!-- ACAO 8: Dr. Bruno com especialidade e CRM -->
       <div class="testi-card reveal delay-3">
-        <div class="stars">★★★★★</div>
-        <p>"Sou médico e fui bastante cético no começo — o mercado de suplementos está cheio de promessas exageradas. Mas a formulação ZMA tem evidência sólida. Uso há 2 meses e já passei a recomendar para pacientes com queixa de fadiga e queda de libido."</p>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Sou m&#233;dico e fui bastante c&#233;tico no come&#231;o &mdash; o mercado de suplementos est&#225; cheio de promessas exageradas. Mas a formula&#231;&#227;o ZMA tem evid&#234;ncia s&#243;lida. Uso h&#225; 2 meses e j&#225; passei a recomendar para pacientes com defici&#234;ncia de zinco e magn&#233;sio."</p>
         <div class="testi-author">
           <div class="testi-avatar">BS</div>
           <div class="testi-author-info">
             <strong>Dr. Bruno S.</strong>
-            <span>Médico Clínico Geral, 41 anos</span>
-            <div class="verified-badge">✓ Compra verificada</div>
+            <span>Medicina do Esporte e Cl&#237;nico Geral &middot; CRM-SP XXXXX</span>
+            <div class="verified-badge">&#10003; Compra verificada</div>
           </div>
         </div>
       </div>
@@ -1393,190 +1209,111 @@
   </div>
 </section>
 
-<!-- ═══════════════════ PRICING ═══════════════════ -->
-<section class="pricing" id="pricing">
-  <div class="section-inner">
-    <span class="section-tag reveal">Escolha seu pacote</span>
-    <h2 class="reveal">Invista na Sua <em>Virilidade de Volta</em></h2>
-    <p class="section-sub reveal">Quanto mais tempo de tratamento, mais profundo e duradouro o resultado. Os homens sérios sabem disso — e escolhem o kit de 3.</p>
-    <div class="pricing-grid">
-
-      <div class="price-card reveal delay-1">
-        <div class="price-units-img">
-          <img class="bottle" src="titanMenNoBG.png" alt="1 frasco" />
-        </div>
-        <div class="price-qty">1 Frasco</div>
-        <div class="price-duration">30 dias — bom pra experimentar</div>
-        <div class="price-original">De R$ 128,00</div>
-        <div class="price-main"><sup>R$</sup>115<span class="cents">,00</span></div>
-        <div class="price-per">ou R$ 109,25 no PIX</div>
-        <div class="price-installment">3× de R$ 38,33 sem juros</div>
-        <div class="price-savings">Economize R$ 13,00</div>
-        <ul class="price-perks">
-          <li>30 cápsulas (1 mês)</li>
-          <li>Feno Grego + ZMA</li>
-          <li>Frete grátis</li>
-          <li>Entrega em 5–10 dias úteis</li>
-        </ul>
-        <a href="https://igeia.pay.yampi.com.br/r/IORWRAH51D" target="_blank" class="btn-cta">
-          COMPRAR AGORA
-          <small>1 Frasco — R$ 115,00</small>
-        </a>
-      </div>
-
-      <div class="price-card featured reveal delay-2">
-        <div class="best-badge">🔥 Mais Vendido</div>
-        <div class="price-units-img">
-          <img class="bottle" src="titanMenNoBG.png" alt="2 frascos" />
-          <img class="bottle" src="titanMenNoBG.png" alt="2 frascos" />
-        </div>
-        <div class="price-qty">2 Frascos</div>
-        <div class="price-duration">60 dias — o mínimo pra transformação completa</div>
-        <div class="price-original">De R$ 230,00</div>
-        <div class="price-main"><sup>R$</sup>179<span class="cents">,00</span></div>
-        <div class="price-per">ou R$ 170,05 no PIX</div>
-        <div class="price-installment">3× de R$ 59,67 sem juros</div>
-        <div class="price-savings">Economize R$ 51,00</div>
-        <ul class="price-perks">
-          <li>60 cápsulas (2 meses)</li>
-          <li>Feno Grego + ZMA</li>
-          <li>Frete grátis prioritário</li>
-          <li>Entrega em 3–7 dias úteis</li>
-        </ul>
-        <a href="https://igeia.pay.yampi.com.br/r/GRC39SWV0K" target="_blank" class="btn-cta">
-          COMPRAR AGORA
-          <small>2 Frascos — R$ 179,00</small>
-        </a>
-      </div>
-
-      <div class="price-card reveal delay-3">
-        <div class="price-units-img">
-          <img class="bottle" src="titanMenNoBG.png" alt="3 frascos" />
-          <img class="bottle" src="titanMenNoBG.png" alt="3 frascos" />
-          <img class="bottle" src="titanMenNoBG.png" alt="3 frascos" />
-        </div>
-        <div class="price-qty">3 Frascos</div>
-        <div class="price-duration">90 dias — o que os homens sérios escolhem</div>
-        <div class="price-original">De R$ 345,00</div>
-        <div class="price-main"><sup>R$</sup>229<span class="cents">,00</span></div>
-        <div class="price-per">ou R$ 217,55 no PIX</div>
-        <div class="price-installment">3× de R$ 76,33 sem juros</div>
-        <div class="price-savings">Economize R$ 116,00 🔥</div>
-        <ul class="price-perks">
-          <li>90 cápsulas (3 meses)</li>
-          <li>Feno Grego + ZMA</li>
-          <li>Frete grátis express</li>
-          <li>Entrega em 2–5 dias úteis</li>
-        </ul>
-        <a href="https://igeia.pay.yampi.com.br/r/4ETFL1O08Q" target="_blank" class="btn-cta">
-          COMPRAR AGORA
-          <small>3 Frascos — R$ 229,00</small>
-        </a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════════ GUARANTEE ═══════════════════ -->
+<!-- ===================== GUARANTEE ===================== -->
 <section class="guarantee">
   <div class="section-inner">
     <div class="guarantee-box reveal">
-      <div class="guarantee-icon">🛡️</div>
+      <div class="guarantee-icon">&#128737;&#65039;</div>
       <div class="guarantee-text">
-        <h3>Compra 100% Garantida e Segura</h3>
-        <p>Seu pedido é protegido com criptografia de ponta a ponta. Aceitamos Cartão de Crédito, PIX e Boleto. A Igéia é uma empresa séria, com anos de atuação no mercado de suplementação e nutrição. Você está em boas mãos.</p>
+        <!-- ACAO 1: texto da garantia atualizado com 30 dias explicito -->
+        <h3>Garantia de 30 Dias + Compra 100% Segura</h3>
+        <p>Se em 30 dias voc&#234; n&#227;o sentir diferen&#231;a, devolvemos 100% do seu dinheiro. Sem burocracia. Sem perguntas. Basta entrar em contato pelo e-mail ou WhatsApp &mdash; processamos o reembolso imediatamente. Al&#233;m disso, seu pedido &#233; protegido com criptografia SSL de ponta a ponta. Aceitamos Cart&#227;o de Cr&#233;dito, PIX e Boleto. A Ig&#233;ia &#233; uma empresa s&#233;ria, com anos de atua&#231;&#227;o no mercado de suplementa&#231;&#227;o. Voc&#234; est&#225; em boas m&#227;os.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ FAQ ═══════════════════ -->
+<!-- ===================== FAQ ===================== -->
 <section class="faq">
   <div class="section-inner">
-    <span class="section-tag reveal">Dúvidas Frequentes</span>
-    <h2 class="reveal">Respondemos Tudo <em>Antes de Você Perguntar</em></h2>
-    <p class="section-sub reveal" style="margin-bottom:40px;">Sem enrolação. Sem promessa vazia. Só o que você precisa saber.</p>
+    <span class="section-tag reveal">D&#250;vidas Frequentes</span>
+    <h2 class="reveal">Respondemos Tudo <em>Antes de Voc&#234; Perguntar</em></h2>
+    <p class="section-sub reveal" style="margin-bottom:40px;">Transpar&#234;ncia total. Sem enrola&#231;&#227;o.</p>
     <div class="faq-list reveal">
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
           Em quanto tempo sinto os resultados?
           <span class="arrow">+</span>
         </button>
-        <div class="faq-a">Primeiros sinais de sono e energia: 7 a 14 dias. Libido e performance: 2 a 3 semanas. Força, testosterona e transformação completa: 30 dias de uso consistente. Mas só funciona se você usar. Cápsula na gaveta não resolve nada.</div>
+        <div class="faq-a">Os primeiros sinais &mdash; como melhora no sono e mais energia &mdash; costumam aparecer j&#225; na primeira e segunda semana. Resultados mais expressivos em performance e testosterone s&#227;o percebidos a partir do 30&#186; dia com uso consistente.</div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
-          Precisa de receita médica?
+          Precisa de receita m&#233;dica?
           <span class="arrow">+</span>
         </button>
-        <div class="faq-a">Não. Titan Men+ é um suplemento alimentar de venda livre. Se você tiver alguma condição de saúde pré-existente ou usar medicamentos, consulte seu médico — especialmente se estiver em tratamento hormonal.</div>
+        <div class="faq-a">N&#227;o. Titan Men+ &#233; um suplemento alimentar de venda livre. Recomendamos consultar um nutricionista para personalizar seu protocolo, mas n&#227;o h&#225; necessidade de prescri&#231;&#227;o para adquirir.</div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
           Tem efeitos colaterais?
           <span class="arrow">+</span>
         </button>
-        <div class="faq-a">Não para a maioria dos usuários. É natural, sem hormônios sintéticos, sem estimulantes artificiais. O único "efeito colateral" relatado pelos clientes: dormir melhor, treinar mais forte — e a parceira estranhando (positivamente) a diferença.</div>
+        <div class="faq-a">Titan Men+ &#233; formulado com ingredientes naturais. Quando usado dentro das doses recomendadas, &#233; bem tolerado pela maioria. Em caso de condi&#231;&#227;o de sa&#250;de pr&#233;-existente ou uso de medicamentos, consulte seu m&#233;dico antes.</div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
-          Posso usar em jejum ou junto com refeição?
+          Posso usar em jejum ou junto com refei&#231;&#227;o?
           <span class="arrow">+</span>
         </button>
-        <div class="faq-a">Recomenda-se tomar à noite, antes de dormir, com o estômago vazio ou leve — para maximizar a absorção do ZMA. Essa janela noturna é quando o corpo recupera hormônios e músculos com mais eficiência.</div>
+        <div class="faq-a">Recomenda-se tomar &#224; noite, antes de dormir, e de prefer&#234;ncia com o est&#244;mago vazio ou leve, para maximizar a absor&#231;&#227;o do ZMA. O Feno Grego tamb&#233;m pode ser tomado com as refei&#231;&#245;es &mdash; siga a orienta&#231;&#227;o do r&#243;tulo.</div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
-          Minha parceira vai notar a diferença?
+          O frete &#233; realmente gr&#225;tis?
           <span class="arrow">+</span>
         </button>
-        <div class="faq-a">Baseado nos nossos clientes: sim. Ela costuma ser a primeira a perceber — no humor, na disposição e no quarto. Não é coincidência: testosterona regula tudo isso.</div>
+        <div class="faq-a">Sim, todos os pacotes incluem frete gr&#225;tis para todo o Brasil. O prazo de entrega varia de acordo com o pacote escolhido (2 a 10 dias &#250;teis ap&#243;s confirma&#231;&#227;o do pagamento).</div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
-          O frete é realmente grátis e a embalagem discreta?
+          O pagamento &#233; seguro?
           <span class="arrow">+</span>
         </button>
-        <div class="faq-a">Sim em ambos. Frete grátis para todo o Brasil, e a embalagem é 100% neutra — caixa sem identificação do produto. Ninguém além de você sabe o que está dentro.</div>
+        <div class="faq-a">Absolutamente. O checkout &#233; processado pelo site oficial da Ig&#233;ia com protocolo SSL. Aceitamos PIX, boleto e cart&#245;es de cr&#233;dito em at&#233; 3&times; sem juros.</div>
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
-          O pagamento é seguro?
+          Como funciona a garantia de 30 dias?
           <span class="arrow">+</span>
         </button>
-        <div class="faq-a">Absolutamente. O checkout é processado pelo site oficial da Igéia com protocolo SSL 256-bit. Aceitamos PIX, boleto e cartões de crédito em até 3× sem juros. Você está protegido.</div>
+        <div class="faq-a">Simples. Se em 30 dias voc&#234; n&#227;o sentir diferen&#231;a, entre em contato pelo e-mail suporte@igeia.com.br ou pelo nosso WhatsApp. Sem burocracia, sem formul&#225;rios, sem perguntas desnecess&#225;rias. Processamos o reembolso integral do valor pago.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════ FINAL CTA (photo bg) ═══════════════════ -->
+<!-- ===================== FINAL CTA ===================== -->
 <section class="final-cta">
   <div class="final-cta-bg"></div>
   <div class="final-cta-overlay"></div>
   <div class="final-cta-grid"></div>
   <div class="section-inner">
-    <div class="urgency-bar reveal">Estoque Limitado — Garanta o Seu Agora</div>
-    <h2 class="reveal">Cada Dia Sem Agir é Mais um Dia com <em>Menos Energia, Menos Força, Menos Tesão</em></h2>
-    <p class="reveal delay-1">Você não precisa aceitar isso como destino. Outros homens já decidiram reagir — e a diferença aparece no espelho, na academia e no quarto. A fórmula está aqui. A decisão é sua.</p>
+    <!-- ACAO 9: urgencia com quantidade especifica -->
+    <div class="urgency-bar reveal">Restam apenas <strong style="color:#fff;margin:0 3px;">47 unidades</strong> do Kit de 3 Frascos</div>
+    <h2 class="reveal">Chega de Viver <em>Abaixo do Seu Potencial</em></h2>
+    <p class="reveal delay-1">Cada dia sem Titan Men+ &#233; mais um dia com menos energia, menos performance e menos resultado. A f&#243;rmula est&#225; aqui &mdash; a decis&#227;o &#233; sua.</p>
     <a href="#pricing" class="btn-cta reveal delay-2" style="font-size:20px; padding:24px 60px;">
-      GARANTIR MEU TITAN MEN+ COM DESCONTO
-      <small>⬇ Entrega discreta. Pagamento seguro.</small>
+      VER PACOTES COM DESCONTO
+      <small>&#11015; Garantia de 30 dias inclu&#237;da em todos os kits</small>
     </a>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2026 Titan Men+ — Produto Igéia. Suplemento alimentar. Não substitui alimentação equilibrada e estilo de vida saudável. Consulte um nutricionista.</p>
-  <p style="margin-top:6px; font-size:11px; color:#555;">Ativos aprovados pela ANVISA conforme IN nº 76/2020. Titan Men+ é um suplemento alimentar registrado.</p>
+  <p>&copy; 2026 Titan Men+ &mdash; Produto Ig&#233;ia. Suplemento alimentar. N&#227;o substitui alimenta&#231;&#227;o equilibrada e estilo de vida saud&#225;vel. Consulte um nutricionista.</p>
   <p><a href="https://www.igeia.com.br" target="_blank">www.igeia.com.br</a> &nbsp;|&nbsp; Todos os direitos reservados.</p>
+  <!-- ACAO 4: CNPJ e endereco no rodape -->
+  <div class="footer-legal">
+    <p><strong style="color:#667080;">Ig&#233;ia Produtos Naturais Ltda.</strong> &nbsp;|&nbsp; CNPJ: XX.XXX.XXX/0001-XX &nbsp;|&nbsp; S&#227;o Paulo &mdash; Brasil</p>
+    <p>Reg. ANVISA n&#186; [INSERIR N&Uacute;MERO] &nbsp;|&nbsp; suporte@igeia.com.br</p>
+  </div>
 </footer>
 
 <!-- FLOATING CTA (mobile) -->
 <div class="float-cta">
-  <a href="#pricing" class="btn-cta">RECUPERAR MINHA VIRILIDADE AGORA ↓</a>
+  <a href="#pricing" class="btn-cta">GARANTIR MEU KIT COM DESCONTO &#8595;</a>
 </div>
 
 <script>
@@ -1587,7 +1324,7 @@
   }, { threshold: 0.1 });
   revEls.forEach(el => revObs.observe(el));
 
-  /* ── Ingredient bars: triggered when card enters view ── */
+  /* ── Ingredient bars ── */
   const ingrCards = document.querySelectorAll('.ingr-card');
   const ingrObs = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
@@ -1600,28 +1337,6 @@
   window.addEventListener('scroll', () => {
     sticky.classList.toggle('visible', hero.getBoundingClientRect().bottom < 0);
   }, { passive: true });
-
-  /* ── Animated Counters ── */
-  function animCounter(el, target, dec, suffix) {
-    const dur = 1800, step = 16, steps = dur / step;
-    const inc = target / steps;
-    let cur = 0;
-    const t = setInterval(() => {
-      cur += inc;
-      if (cur >= target) { cur = target; clearInterval(t); }
-      el.textContent = (dec ? cur.toFixed(1) : Math.floor(cur).toLocaleString('pt-BR')) + suffix;
-    }, step);
-  }
-  const cntObs = new IntersectionObserver(entries => {
-    entries.forEach(e => {
-      if (!e.isIntersecting) return;
-      const el = e.target;
-      if (el.dataset.count) animCounter(el, +el.dataset.count, false, el.dataset.suffix||'');
-      if (el.dataset.countDec) animCounter(el, +el.dataset.countDec, true, el.dataset.suffix||'');
-      cntObs.unobserve(el);
-    });
-  }, { threshold: 0.5 });
-  document.querySelectorAll('[data-count],[data-count-dec]').forEach(el => cntObs.observe(el));
 
   /* ── FAQ ── */
   function toggleFaq(btn) {
